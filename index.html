@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Pokémon</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="dex">
+      <header class="dex-top">
+        <div class="lens"></div>
+        <h1 id="appTitle">Quiz Pokédex</h1>
+        <div class="top-right">
+          <div class="modes" role="tablist">
+            <button id="modeQuiz" type="button" class="mode active"></button>
+            <button id="modeGame" type="button" class="mode"></button>
+          </div>
+          <select id="uiLanguage" aria-label="Langue"></select>
+        </div>
+      </header>
+
+      <div id="quizView">
+      <nav id="tabs" class="tabs" aria-label="Pages"></nav>
+
+      <section class="panel">
+        <form id="answerForm" autocomplete="off">
+          <input id="answerInput" autocomplete="off" autocapitalize="off" spellcheck="false" />
+        </form>
+        <div class="stats">
+          <div class="bar"><div id="barFill" class="bar-fill"></div></div>
+          <span id="progressText">0 / 0</span>
+        </div>
+        <p id="messageBox" class="message"></p>
+
+        <div class="hints">
+          <div class="hint-row">
+            <label class="switch">
+              <input id="showTypes" type="checkbox" />
+              <span id="showTypesLabel"></span>
+            </label>
+            <label class="switch">
+              <input id="showSilhouettes" type="checkbox" />
+              <span id="showSilhouettesLabel"></span>
+            </label>
+            <span id="typeHelp" class="muted"></span>
+          </div>
+          <div id="typeChips" class="type-chips"></div>
+        </div>
+
+        <div class="actions">
+          <button id="giveUpButton" type="button" class="ghost"></button>
+          <button id="resetPageButton" type="button" class="ghost"></button>
+          <button id="resetAllButton" type="button" class="ghost danger"></button>
+        </div>
+      </section>
+
+      <main id="grid" class="grid"></main>
+      </div>
+
+      <section id="gameView" class="game" hidden>
+        <label class="game-format"><span id="gFormatLabel"></span> <select id="gFormat"></select></label>
+        <div id="gRegions" class="game-regions"></div>
+        <div class="game-stats">
+          <div><small id="gRoundsLabel"></small><b id="gRounds">0</b></div>
+          <div><small id="gScoreLabel"></small><b id="gScore">0</b></div>
+          <div id="gAvgBox"><small id="gAvgLabel"></small><b id="gAvg">–</b></div>
+          <div id="gBestBox"><small id="gBestLabel"></small><b id="gBest">–</b></div>
+        </div>
+        <p id="gPrompt" class="game-prompt"></p>
+        <div id="gNumber" class="game-number"></div>
+        <form id="gForm" autocomplete="off">
+          <input id="gInput" autocomplete="off" autocapitalize="off" spellcheck="false" />
+          <button id="gSubmit" type="submit"></button>
+        </form>
+        <p id="gMessage" class="message"></p>
+        <div id="gResult" class="game-result" hidden></div>
+        <div class="actions">
+          <button id="gNext" type="button" hidden></button>
+          <button id="gSkip" type="button" class="ghost"></button>
+          <button id="gReset" type="button" class="ghost danger"></button>
+        </div>
+      </section>
+    </div>
+
+    <div id="confirmOverlay" class="overlay" hidden>
+      <div class="dialog" role="dialog" aria-modal="true">
+        <p id="confirmMessage"></p>
+        <div class="dialog-actions">
+          <button id="confirmNo" type="button" class="ghost"></button>
+          <button id="confirmYes" type="button"></button>
+        </div>
+      </div>
+    </div>
+
+    <div id="hintOverlay" class="overlay" hidden>
+      <div class="dialog" role="dialog" aria-modal="true">
+        <p id="hintMessage"></p>
+        <div class="dialog-actions hint-actions">
+          <button id="hintCancel" type="button" class="ghost"></button>
+          <button id="hintSilhouette" type="button"></button>
+          <button id="hintType" type="button"></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="pokemon-data.js"></script>
+    <script src="types-data.js"></script>
+    <script src="script.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>

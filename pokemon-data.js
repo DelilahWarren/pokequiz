@@ -1,0 +1,6417 @@
+window.quizCategories = {
+  pokemons: {
+    "title": "Pokémon",
+    "pages": [
+      {
+        "key": "gen1",
+        "title": "Kanto",
+        "entries": [
+          {
+            "id": 1,
+            "en": "Bulbasaur",
+            "fr": "Bulbizarre",
+            "scoreGroup": "bulbasaur"
+          },
+          {
+            "id": 2,
+            "en": "Ivysaur",
+            "fr": "Herbizarre",
+            "scoreGroup": "ivysaur"
+          },
+          {
+            "id": 3,
+            "en": "Venusaur",
+            "fr": "Florizarre",
+            "scoreGroup": "venusaur"
+          },
+          {
+            "id": 4,
+            "en": "Charmander",
+            "fr": "Salamèche",
+            "scoreGroup": "charmander"
+          },
+          {
+            "id": 5,
+            "en": "Charmeleon",
+            "fr": "Reptincel",
+            "scoreGroup": "charmeleon"
+          },
+          {
+            "id": 6,
+            "en": "Charizard",
+            "fr": "Dracaufeu",
+            "scoreGroup": "charizard"
+          },
+          {
+            "id": 7,
+            "en": "Squirtle",
+            "fr": "Carapuce",
+            "scoreGroup": "squirtle"
+          },
+          {
+            "id": 8,
+            "en": "Wartortle",
+            "fr": "Carabaffe",
+            "scoreGroup": "wartortle"
+          },
+          {
+            "id": 9,
+            "en": "Blastoise",
+            "fr": "Tortank",
+            "scoreGroup": "blastoise"
+          },
+          {
+            "id": 10,
+            "en": "Caterpie",
+            "fr": "Chenipan",
+            "scoreGroup": "caterpie"
+          },
+          {
+            "id": 11,
+            "en": "Metapod",
+            "fr": "Chrysacier",
+            "scoreGroup": "metapod"
+          },
+          {
+            "id": 12,
+            "en": "Butterfree",
+            "fr": "Papilusion",
+            "scoreGroup": "butterfree"
+          },
+          {
+            "id": 13,
+            "en": "Weedle",
+            "fr": "Aspicot",
+            "scoreGroup": "weedle"
+          },
+          {
+            "id": 14,
+            "en": "Kakuna",
+            "fr": "Coconfort",
+            "scoreGroup": "kakuna"
+          },
+          {
+            "id": 15,
+            "en": "Beedrill",
+            "fr": "Dardargnan",
+            "scoreGroup": "beedrill"
+          },
+          {
+            "id": 16,
+            "en": "Pidgey",
+            "fr": "Roucool",
+            "scoreGroup": "pidgey"
+          },
+          {
+            "id": 17,
+            "en": "Pidgeotto",
+            "fr": "Roucoups",
+            "scoreGroup": "pidgeotto"
+          },
+          {
+            "id": 18,
+            "en": "Pidgeot",
+            "fr": "Roucarnage",
+            "scoreGroup": "pidgeot"
+          },
+          {
+            "id": 19,
+            "en": "Rattata",
+            "fr": "Rattata",
+            "scoreGroup": "rattata"
+          },
+          {
+            "id": 20,
+            "en": "Raticate",
+            "fr": "Rattatac",
+            "scoreGroup": "raticate"
+          },
+          {
+            "id": 21,
+            "en": "Spearow",
+            "fr": "Piafabec",
+            "scoreGroup": "spearow"
+          },
+          {
+            "id": 22,
+            "en": "Fearow",
+            "fr": "Rapasdepic",
+            "scoreGroup": "fearow"
+          },
+          {
+            "id": 23,
+            "en": "Ekans",
+            "fr": "Abo",
+            "scoreGroup": "ekans", "types": ['poison']
+          },
+          {
+            "id": 24,
+            "en": "Arbok",
+            "fr": "Arbok",
+            "scoreGroup": "arbok", "types": ['poison']
+          },
+          {
+            "id": 25,
+            "en": "Pikachu",
+            "fr": "Pikachu",
+            "scoreGroup": "pikachu"
+          },
+          {
+            "id": 26,
+            "en": "Raichu",
+            "fr": "Raichu",
+            "scoreGroup": "raichu"
+          },
+          {
+            "id": 27,
+            "en": "Sandshrew",
+            "fr": "Sabelette",
+            "scoreGroup": "sandshrew"
+          },
+          {
+            "id": 28,
+            "en": "Sandslash",
+            "fr": "Sablaireau",
+            "scoreGroup": "sandslash"
+          },
+          {
+            "id": 29,
+            "en": "Nidoran♀",
+            "fr": "Nidoran♀",
+            "scoreGroup": "nidoran♀"
+          },
+          {
+            "id": 30,
+            "en": "Nidorina",
+            "fr": "Nidorina",
+            "scoreGroup": "nidorina"
+          },
+          {
+            "id": 31,
+            "en": "Nidoqueen",
+            "fr": "Nidoqueen",
+            "scoreGroup": "nidoqueen"
+          },
+          {
+            "id": 32,
+            "en": "Nidoran♂",
+            "fr": "Nidoran♂",
+            "scoreGroup": "nidoran♂"
+          },
+          {
+            "id": 33,
+            "en": "Nidorino",
+            "fr": "Nidorino",
+            "scoreGroup": "nidorino"
+          },
+          {
+            "id": 34,
+            "en": "Nidoking",
+            "fr": "Nidoking",
+            "scoreGroup": "nidoking"
+          },
+          {
+            "id": 35,
+            "en": "Clefairy",
+            "fr": "Mélofée",
+            "scoreGroup": "clefairy"
+          },
+          {
+            "id": 36,
+            "en": "Clefable",
+            "fr": "Mélodelfe",
+            "scoreGroup": "clefable"
+          },
+          {
+            "id": 37,
+            "en": "Vulpix",
+            "fr": "Goupix",
+            "scoreGroup": "vulpix"
+          },
+          {
+            "id": 38,
+            "en": "Ninetales",
+            "fr": "Feunard",
+            "scoreGroup": "ninetales"
+          },
+          {
+            "id": 39,
+            "en": "Jigglypuff",
+            "fr": "Rondoudou",
+            "scoreGroup": "jigglypuff"
+          },
+          {
+            "id": 40,
+            "en": "Wigglytuff",
+            "fr": "Grodoudou",
+            "scoreGroup": "wigglytuff"
+          },
+          {
+            "id": 41,
+            "en": "Zubat",
+            "fr": "Nosferapti",
+            "scoreGroup": "zubat"
+          },
+          {
+            "id": 42,
+            "en": "Golbat",
+            "fr": "Nosferalto",
+            "scoreGroup": "golbat"
+          },
+          {
+            "id": 43,
+            "en": "Oddish",
+            "fr": "Mystherbe",
+            "scoreGroup": "oddish"
+          },
+          {
+            "id": 44,
+            "en": "Gloom",
+            "fr": "Ortide",
+            "scoreGroup": "gloom"
+          },
+          {
+            "id": 45,
+            "en": "Vileplume",
+            "fr": "Rafflesia",
+            "scoreGroup": "vileplume"
+          },
+          {
+            "id": 46,
+            "en": "Paras",
+            "fr": "Paras",
+            "scoreGroup": "paras"
+          },
+          {
+            "id": 47,
+            "en": "Parasect",
+            "fr": "Parasect",
+            "scoreGroup": "parasect"
+          },
+          {
+            "id": 48,
+            "en": "Venonat",
+            "fr": "Mimitoss",
+            "scoreGroup": "venonat"
+          },
+          {
+            "id": 49,
+            "en": "Venomoth",
+            "fr": "Aéromite",
+            "scoreGroup": "venomoth"
+          },
+          {
+            "id": 50,
+            "en": "Diglett",
+            "fr": "Taupiqueur",
+            "scoreGroup": "diglett"
+          },
+          {
+            "id": 51,
+            "en": "Dugtrio",
+            "fr": "Triopikeur",
+            "scoreGroup": "dugtrio"
+          },
+          {
+            "id": 52,
+            "en": "Meowth",
+            "fr": "Miaouss",
+            "scoreGroup": "meowth"
+          },
+          {
+            "id": 53,
+            "en": "Persian",
+            "fr": "Persian",
+            "scoreGroup": "persian"
+          },
+          {
+            "id": 54,
+            "en": "Psyduck",
+            "fr": "Psykokwak",
+            "scoreGroup": "psyduck"
+          },
+          {
+            "id": 55,
+            "en": "Golduck",
+            "fr": "Akwakwak",
+            "scoreGroup": "golduck"
+          },
+          {
+            "id": 56,
+            "en": "Mankey",
+            "fr": "Férosinge",
+            "scoreGroup": "mankey", "types": ['fighting']
+          },
+          {
+            "id": 57,
+            "en": "Primeape",
+            "fr": "Colossinge",
+            "scoreGroup": "primeape", "types": ['fighting']
+          },
+          {
+            "id": 58,
+            "en": "Growlithe",
+            "fr": "Caninos",
+            "scoreGroup": "growlithe"
+          },
+          {
+            "id": 59,
+            "en": "Arcanine",
+            "fr": "Arcanin",
+            "scoreGroup": "arcanine"
+          },
+          {
+            "id": 60,
+            "en": "Poliwag",
+            "fr": "Ptitard",
+            "scoreGroup": "poliwag"
+          },
+          {
+            "id": 61,
+            "en": "Poliwhirl",
+            "fr": "Têtarte",
+            "scoreGroup": "poliwhirl"
+          },
+          {
+            "id": 62,
+            "en": "Poliwrath",
+            "fr": "Tartard",
+            "scoreGroup": "poliwrath"
+          },
+          {
+            "id": 63,
+            "en": "Abra",
+            "fr": "Abra",
+            "scoreGroup": "abra"
+          },
+          {
+            "id": 64,
+            "en": "Kadabra",
+            "fr": "Kadabra",
+            "scoreGroup": "kadabra"
+          },
+          {
+            "id": 65,
+            "en": "Alakazam",
+            "fr": "Alakazam",
+            "scoreGroup": "alakazam"
+          },
+          {
+            "id": 66,
+            "en": "Machop",
+            "fr": "Machoc",
+            "scoreGroup": "machop"
+          },
+          {
+            "id": 67,
+            "en": "Machoke",
+            "fr": "Machopeur",
+            "scoreGroup": "machoke"
+          },
+          {
+            "id": 68,
+            "en": "Machamp",
+            "fr": "Mackogneur",
+            "scoreGroup": "machamp"
+          },
+          {
+            "id": 69,
+            "en": "Bellsprout",
+            "fr": "Chétiflor",
+            "scoreGroup": "bellsprout"
+          },
+          {
+            "id": 70,
+            "en": "Weepinbell",
+            "fr": "Boustiflor",
+            "scoreGroup": "weepinbell"
+          },
+          {
+            "id": 71,
+            "en": "Victreebel",
+            "fr": "Empiflor",
+            "scoreGroup": "victreebel"
+          },
+          {
+            "id": 72,
+            "en": "Tentacool",
+            "fr": "Tentacool",
+            "scoreGroup": "tentacool"
+          },
+          {
+            "id": 73,
+            "en": "Tentacruel",
+            "fr": "Tentacruel",
+            "scoreGroup": "tentacruel"
+          },
+          {
+            "id": 74,
+            "en": "Geodude",
+            "fr": "Racaillou",
+            "scoreGroup": "geodude"
+          },
+          {
+            "id": 75,
+            "en": "Graveler",
+            "fr": "Gravalanch",
+            "scoreGroup": "graveler"
+          },
+          {
+            "id": 76,
+            "en": "Golem",
+            "fr": "Grolem",
+            "scoreGroup": "golem"
+          },
+          {
+            "id": 77,
+            "en": "Ponyta",
+            "fr": "Ponyta",
+            "scoreGroup": "ponyta"
+          },
+          {
+            "id": 78,
+            "en": "Rapidash",
+            "fr": "Galopa",
+            "scoreGroup": "rapidash"
+          },
+          {
+            "id": 79,
+            "en": "Slowpoke",
+            "fr": "Ramoloss",
+            "scoreGroup": "slowpoke"
+          },
+          {
+            "id": 80,
+            "en": "Slowbro",
+            "fr": "Flagadoss",
+            "scoreGroup": "slowbro"
+          },
+          {
+            "id": 81,
+            "en": "Magnemite",
+            "fr": "Magnéti",
+            "scoreGroup": "magnemite"
+          },
+          {
+            "id": 82,
+            "en": "Magneton",
+            "fr": "Magnéton",
+            "scoreGroup": "magneton"
+          },
+          {
+            "id": 83,
+            "en": "Farfetch’d",
+            "fr": "Canarticho",
+            "scoreGroup": "farfetch’d"
+          },
+          {
+            "id": 84,
+            "en": "Doduo",
+            "fr": "Doduo",
+            "scoreGroup": "doduo"
+          },
+          {
+            "id": 85,
+            "en": "Dodrio",
+            "fr": "Dodrio",
+            "scoreGroup": "dodrio"
+          },
+          {
+            "id": 86,
+            "en": "Seel",
+            "fr": "Otaria",
+            "scoreGroup": "seel"
+          },
+          {
+            "id": 87,
+            "en": "Dewgong",
+            "fr": "Lamantine",
+            "scoreGroup": "dewgong"
+          },
+          {
+            "id": 88,
+            "en": "Grimer",
+            "fr": "Tadmorv",
+            "scoreGroup": "grimer"
+          },
+          {
+            "id": 89,
+            "en": "Muk",
+            "fr": "Grotadmorv",
+            "scoreGroup": "muk"
+          },
+          {
+            "id": 90,
+            "en": "Shellder",
+            "fr": "Kokiyas",
+            "scoreGroup": "shellder"
+          },
+          {
+            "id": 91,
+            "en": "Cloyster",
+            "fr": "Crustabri",
+            "scoreGroup": "cloyster"
+          },
+          {
+            "id": 92,
+            "en": "Gastly",
+            "fr": "Fantominus",
+            "scoreGroup": "gastly"
+          },
+          {
+            "id": 93,
+            "en": "Haunter",
+            "fr": "Spectrum",
+            "scoreGroup": "haunter"
+          },
+          {
+            "id": 94,
+            "en": "Gengar",
+            "fr": "Ectoplasma",
+            "scoreGroup": "gengar"
+          },
+          {
+            "id": 95,
+            "en": "Onix",
+            "fr": "Onix",
+            "scoreGroup": "onix"
+          },
+          {
+            "id": 96,
+            "en": "Drowzee",
+            "fr": "Soporifik",
+            "scoreGroup": "drowzee"
+          },
+          {
+            "id": 97,
+            "en": "Hypno",
+            "fr": "Hypnomade",
+            "scoreGroup": "hypno"
+          },
+          {
+            "id": 98,
+            "en": "Krabby",
+            "fr": "Krabby",
+            "scoreGroup": "krabby"
+          },
+          {
+            "id": 99,
+            "en": "Kingler",
+            "fr": "Krabboss",
+            "scoreGroup": "kingler"
+          },
+          {
+            "id": 100,
+            "en": "Voltorb",
+            "fr": "Voltorbe",
+            "scoreGroup": "voltorb"
+          },
+          {
+            "id": 101,
+            "en": "Electrode",
+            "fr": "Électrode",
+            "scoreGroup": "electrode"
+          },
+          {
+            "id": 102,
+            "en": "Exeggcute",
+            "fr": "Noeunoeuf",
+            "scoreGroup": "exeggcute"
+          },
+          {
+            "id": 103,
+            "en": "Exeggutor",
+            "fr": "Noadkoko",
+            "scoreGroup": "exeggutor"
+          },
+          {
+            "id": 104,
+            "en": "Cubone",
+            "fr": "Osselait",
+            "scoreGroup": "cubone"
+          },
+          {
+            "id": 105,
+            "en": "Marowak",
+            "fr": "Ossatueur",
+            "scoreGroup": "marowak"
+          },
+          {
+            "id": 106,
+            "en": "Hitmonlee",
+            "fr": "Kicklee",
+            "scoreGroup": "hitmonlee"
+          },
+          {
+            "id": 107,
+            "en": "Hitmonchan",
+            "fr": "Tygnon",
+            "scoreGroup": "hitmonchan"
+          },
+          {
+            "id": 108,
+            "en": "Lickitung",
+            "fr": "Excelangue",
+            "scoreGroup": "lickitung"
+          },
+          {
+            "id": 109,
+            "en": "Koffing",
+            "fr": "Smogo",
+            "scoreGroup": "koffing"
+          },
+          {
+            "id": 110,
+            "en": "Weezing",
+            "fr": "Smogogo",
+            "scoreGroup": "weezing"
+          },
+          {
+            "id": 111,
+            "en": "Rhyhorn",
+            "fr": "Rhinocorne",
+            "scoreGroup": "rhyhorn"
+          },
+          {
+            "id": 112,
+            "en": "Rhydon",
+            "fr": "Rhinoféros",
+            "scoreGroup": "rhydon"
+          },
+          {
+            "id": 113,
+            "en": "Chansey",
+            "fr": "Leveinard",
+            "scoreGroup": "chansey"
+          },
+          {
+            "id": 114,
+            "en": "Tangela",
+            "fr": "Saquedeneu",
+            "scoreGroup": "tangela"
+          },
+          {
+            "id": 115,
+            "en": "Kangaskhan",
+            "fr": "Kangourex",
+            "scoreGroup": "kangaskhan"
+          },
+          {
+            "id": 116,
+            "en": "Horsea",
+            "fr": "Hypotrempe",
+            "scoreGroup": "horsea"
+          },
+          {
+            "id": 117,
+            "en": "Seadra",
+            "fr": "Hypocéan",
+            "scoreGroup": "seadra"
+          },
+          {
+            "id": 118,
+            "en": "Goldeen",
+            "fr": "Poissirène",
+            "scoreGroup": "goldeen"
+          },
+          {
+            "id": 119,
+            "en": "Seaking",
+            "fr": "Poissoroy",
+            "scoreGroup": "seaking"
+          },
+          {
+            "id": 120,
+            "en": "Staryu",
+            "fr": "Stari",
+            "scoreGroup": "staryu"
+          },
+          {
+            "id": 121,
+            "en": "Starmie",
+            "fr": "Staross",
+            "scoreGroup": "starmie"
+          },
+          {
+            "id": 122,
+            "en": "Mr. Mime",
+            "fr": "M. Mime",
+            "scoreGroup": "mr.-mime"
+          },
+          {
+            "id": 123,
+            "en": "Scyther",
+            "fr": "Insécateur",
+            "scoreGroup": "scyther"
+          },
+          {
+            "id": 124,
+            "en": "Jynx",
+            "fr": "Lippoutou",
+            "scoreGroup": "jynx"
+          },
+          {
+            "id": 125,
+            "en": "Electabuzz",
+            "fr": "Élektek",
+            "scoreGroup": "electabuzz"
+          },
+          {
+            "id": 126,
+            "en": "Magmar",
+            "fr": "Magmar",
+            "scoreGroup": "magmar"
+          },
+          {
+            "id": 127,
+            "en": "Pinsir",
+            "fr": "Scarabrute",
+            "scoreGroup": "pinsir"
+          },
+          {
+            "id": 128,
+            "en": "Tauros",
+            "fr": "Tauros",
+            "scoreGroup": "tauros"
+          },
+          {
+            "id": 129,
+            "en": "Magikarp",
+            "fr": "Magicarpe",
+            "scoreGroup": "magikarp", "types": ['water']
+          },
+          {
+            "id": 130,
+            "en": "Gyarados",
+            "fr": "Léviator",
+            "scoreGroup": "gyarados", "types": ['water', 'flying']
+          },
+          {
+            "id": 131,
+            "en": "Lapras",
+            "fr": "Lokhlass",
+            "scoreGroup": "lapras"
+          },
+          {
+            "id": 132,
+            "en": "Ditto",
+            "fr": "Métamorph",
+            "scoreGroup": "ditto"
+          },
+          {
+            "id": 133,
+            "en": "Eevee",
+            "fr": "Évoli",
+            "scoreGroup": "eevee", "types": ['normal']
+          },
+          {
+            "id": 134,
+            "en": "Vaporeon",
+            "fr": "Aquali",
+            "scoreGroup": "vaporeon", "types": ['water']
+          },
+          {
+            "id": 135,
+            "en": "Jolteon",
+            "fr": "Voltali",
+            "scoreGroup": "jolteon", "types": ['electric']
+          },
+          {
+            "id": 136,
+            "en": "Flareon",
+            "fr": "Pyroli",
+            "scoreGroup": "flareon", "types": ['fire']
+          },
+          {
+            "id": 137,
+            "en": "Porygon",
+            "fr": "Porygon",
+            "scoreGroup": "porygon"
+          },
+          {
+            "id": 138,
+            "en": "Omanyte",
+            "fr": "Amonita",
+            "scoreGroup": "omanyte"
+          },
+          {
+            "id": 139,
+            "en": "Omastar",
+            "fr": "Amonistar",
+            "scoreGroup": "omastar"
+          },
+          {
+            "id": 140,
+            "en": "Kabuto",
+            "fr": "Kabuto",
+            "scoreGroup": "kabuto"
+          },
+          {
+            "id": 141,
+            "en": "Kabutops",
+            "fr": "Kabutops",
+            "scoreGroup": "kabutops"
+          },
+          {
+            "id": 142,
+            "en": "Aerodactyl",
+            "fr": "Ptéra",
+            "scoreGroup": "aerodactyl"
+          },
+          {
+            "id": 143,
+            "en": "Snorlax",
+            "fr": "Ronflex",
+            "scoreGroup": "snorlax"
+          },
+          {
+            "id": 144,
+            "en": "Articuno",
+            "fr": "Artikodin",
+            "scoreGroup": "articuno"
+          },
+          {
+            "id": 145,
+            "en": "Zapdos",
+            "fr": "Électhor",
+            "scoreGroup": "zapdos"
+          },
+          {
+            "id": 146,
+            "en": "Moltres",
+            "fr": "Sulfura",
+            "scoreGroup": "moltres"
+          },
+          {
+            "id": 147,
+            "en": "Dratini",
+            "fr": "Minidraco",
+            "scoreGroup": "dratini"
+          },
+          {
+            "id": 148,
+            "en": "Dragonair",
+            "fr": "Draco",
+            "scoreGroup": "dragonair"
+          },
+          {
+            "id": 149,
+            "en": "Dragonite",
+            "fr": "Dracolosse",
+            "scoreGroup": "dragonite"
+          },
+          {
+            "id": 150,
+            "en": "Mewtwo",
+            "fr": "Mewtwo",
+            "scoreGroup": "mewtwo"
+          },
+          {
+            "id": 151,
+            "en": "Mew",
+            "fr": "Mew",
+            "scoreGroup": "mew"
+          }
+        ]
+      },
+      {
+        "key": "gen2",
+        "title": "Johto",
+        "entries": [
+          {
+            "id": 152,
+            "en": "Chikorita",
+            "fr": "Germignon",
+            "scoreGroup": "chikorita"
+          },
+          {
+            "id": 153,
+            "en": "Bayleef",
+            "fr": "Macronium",
+            "scoreGroup": "bayleef"
+          },
+          {
+            "id": 154,
+            "en": "Meganium",
+            "fr": "Méganium",
+            "scoreGroup": "meganium"
+          },
+          {
+            "id": 155,
+            "en": "Cyndaquil",
+            "fr": "Héricendre",
+            "scoreGroup": "cyndaquil"
+          },
+          {
+            "id": 156,
+            "en": "Quilava",
+            "fr": "Feurisson",
+            "scoreGroup": "quilava"
+          },
+          {
+            "id": 157,
+            "en": "Typhlosion",
+            "fr": "Typhlosion",
+            "scoreGroup": "typhlosion"
+          },
+          {
+            "id": 158,
+            "en": "Totodile",
+            "fr": "Kaiminus",
+            "scoreGroup": "totodile"
+          },
+          {
+            "id": 159,
+            "en": "Croconaw",
+            "fr": "Crocrodil",
+            "scoreGroup": "croconaw"
+          },
+          {
+            "id": 160,
+            "en": "Feraligatr",
+            "fr": "Aligatueur",
+            "scoreGroup": "feraligatr"
+          },
+          {
+            "id": 161,
+            "en": "Sentret",
+            "fr": "Fouinette",
+            "scoreGroup": "sentret"
+          },
+          {
+            "id": 162,
+            "en": "Furret",
+            "fr": "Fouinar",
+            "scoreGroup": "furret"
+          },
+          {
+            "id": 163,
+            "en": "Hoothoot",
+            "fr": "Hoothoot",
+            "scoreGroup": "hoothoot"
+          },
+          {
+            "id": 164,
+            "en": "Noctowl",
+            "fr": "Noarfang",
+            "scoreGroup": "noctowl"
+          },
+          {
+            "id": 165,
+            "en": "Ledyba",
+            "fr": "Coxy",
+            "scoreGroup": "ledyba"
+          },
+          {
+            "id": 166,
+            "en": "Ledian",
+            "fr": "Coxyclaque",
+            "scoreGroup": "ledian"
+          },
+          {
+            "id": 167,
+            "en": "Spinarak",
+            "fr": "Mimigal",
+            "scoreGroup": "spinarak"
+          },
+          {
+            "id": 168,
+            "en": "Ariados",
+            "fr": "Migalos",
+            "scoreGroup": "ariados"
+          },
+          {
+            "id": 169,
+            "en": "Crobat",
+            "fr": "Nostenfer",
+            "scoreGroup": "crobat"
+          },
+          {
+            "id": 170,
+            "en": "Chinchou",
+            "fr": "Loupio",
+            "scoreGroup": "chinchou"
+          },
+          {
+            "id": 171,
+            "en": "Lanturn",
+            "fr": "Lanturn",
+            "scoreGroup": "lanturn"
+          },
+          {
+            "id": 172,
+            "en": "Pichu",
+            "fr": "Pichu",
+            "scoreGroup": "pichu"
+          },
+          {
+            "id": 173,
+            "en": "Cleffa",
+            "fr": "Mélo",
+            "scoreGroup": "cleffa"
+          },
+          {
+            "id": 174,
+            "en": "Igglybuff",
+            "fr": "Toudoudou",
+            "scoreGroup": "igglybuff"
+          },
+          {
+            "id": 175,
+            "en": "Togepi",
+            "fr": "Togepi",
+            "scoreGroup": "togepi"
+          },
+          {
+            "id": 176,
+            "en": "Togetic",
+            "fr": "Togetic",
+            "scoreGroup": "togetic"
+          },
+          {
+            "id": 177,
+            "en": "Natu",
+            "fr": "Natu",
+            "scoreGroup": "natu"
+          },
+          {
+            "id": 178,
+            "en": "Xatu",
+            "fr": "Xatu",
+            "scoreGroup": "xatu"
+          },
+          {
+            "id": 179,
+            "en": "Mareep",
+            "fr": "Wattouat",
+            "scoreGroup": "mareep", "types": ['electric']
+          },
+          {
+            "id": 180,
+            "en": "Flaaffy",
+            "fr": "Lainergie",
+            "scoreGroup": "flaaffy", "types": ['electric']
+          },
+          {
+            "id": 181,
+            "en": "Ampharos",
+            "fr": "Pharamp",
+            "scoreGroup": "ampharos", "types": ['electric']
+          },
+          {
+            "id": 182,
+            "en": "Bellossom",
+            "fr": "Joliflor",
+            "scoreGroup": "bellossom"
+          },
+          {
+            "id": 183,
+            "en": "Marill",
+            "fr": "Marill",
+            "scoreGroup": "marill"
+          },
+          {
+            "id": 184,
+            "en": "Azumarill",
+            "fr": "Azumarill",
+            "scoreGroup": "azumarill"
+          },
+          {
+            "id": 185,
+            "en": "Sudowoodo",
+            "fr": "Simularbre",
+            "scoreGroup": "sudowoodo"
+          },
+          {
+            "id": 186,
+            "en": "Politoed",
+            "fr": "Tarpaud",
+            "scoreGroup": "politoed"
+          },
+          {
+            "id": 187,
+            "en": "Hoppip",
+            "fr": "Granivol",
+            "scoreGroup": "hoppip"
+          },
+          {
+            "id": 188,
+            "en": "Skiploom",
+            "fr": "Floravol",
+            "scoreGroup": "skiploom"
+          },
+          {
+            "id": 189,
+            "en": "Jumpluff",
+            "fr": "Cotovol",
+            "scoreGroup": "jumpluff"
+          },
+          {
+            "id": 190,
+            "en": "Aipom",
+            "fr": "Capumain",
+            "scoreGroup": "aipom"
+          },
+          {
+            "id": 191,
+            "en": "Sunkern",
+            "fr": "Tournegrin",
+            "scoreGroup": "sunkern"
+          },
+          {
+            "id": 192,
+            "en": "Sunflora",
+            "fr": "Héliatronc",
+            "scoreGroup": "sunflora"
+          },
+          {
+            "id": 193,
+            "en": "Yanma",
+            "fr": "Yanma",
+            "scoreGroup": "yanma"
+          },
+          {
+            "id": 194,
+            "en": "Wooper",
+            "fr": "Axoloto",
+            "scoreGroup": "wooper"
+          },
+          {
+            "id": 195,
+            "en": "Quagsire",
+            "fr": "Maraiste",
+            "scoreGroup": "quagsire"
+          },
+          {
+            "id": 196,
+            "en": "Espeon",
+            "fr": "Mentali",
+            "scoreGroup": "espeon", "types": ['psychic']
+          },
+          {
+            "id": 197,
+            "en": "Umbreon",
+            "fr": "Noctali",
+            "scoreGroup": "umbreon", "types": ['dark']
+          },
+          {
+            "id": 198,
+            "en": "Murkrow",
+            "fr": "Cornèbre",
+            "scoreGroup": "murkrow"
+          },
+          {
+            "id": 199,
+            "en": "Slowking",
+            "fr": "Roigada",
+            "scoreGroup": "slowking"
+          },
+          {
+            "id": 200,
+            "en": "Misdreavus",
+            "fr": "Feuforêve",
+            "scoreGroup": "misdreavus", "types": ['ghost']
+          },
+          {
+            "id": 201,
+            "en": "Unown",
+            "fr": "Zarbi",
+            "scoreGroup": "unown"
+          },
+          {
+            "id": 202,
+            "en": "Wobbuffet",
+            "fr": "Qulbutoké",
+            "scoreGroup": "wobbuffet"
+          },
+          {
+            "id": 203,
+            "en": "Girafarig",
+            "fr": "Girafarig",
+            "scoreGroup": "girafarig"
+          },
+          {
+            "id": 204,
+            "en": "Pineco",
+            "fr": "Pomdepik",
+            "scoreGroup": "pineco"
+          },
+          {
+            "id": 205,
+            "en": "Forretress",
+            "fr": "Foretress",
+            "scoreGroup": "forretress"
+          },
+          {
+            "id": 206,
+            "en": "Dunsparce",
+            "fr": "Insolourdo",
+            "scoreGroup": "dunsparce", "types": ['normal']
+          },
+          {
+            "id": 207,
+            "en": "Gligar",
+            "fr": "Scorplane",
+            "scoreGroup": "gligar", "types": ['ground', 'flying']
+          },
+          {
+            "id": 208,
+            "en": "Steelix",
+            "fr": "Steelix",
+            "scoreGroup": "steelix"
+          },
+          {
+            "id": 209,
+            "en": "Snubbull",
+            "fr": "Snubbull",
+            "scoreGroup": "snubbull"
+          },
+          {
+            "id": 210,
+            "en": "Granbull",
+            "fr": "Granbull",
+            "scoreGroup": "granbull"
+          },
+          {
+            "id": 211,
+            "en": "Qwilfish",
+            "fr": "Qwilfish",
+            "scoreGroup": "qwilfish"
+          },
+          {
+            "id": 212,
+            "en": "Scizor",
+            "fr": "Cizayox",
+            "scoreGroup": "scizor"
+          },
+          {
+            "id": 213,
+            "en": "Shuckle",
+            "fr": "Caratroc",
+            "scoreGroup": "shuckle"
+          },
+          {
+            "id": 214,
+            "en": "Heracross",
+            "fr": "Scarhino",
+            "scoreGroup": "heracross"
+          },
+          {
+            "id": 215,
+            "en": "Sneasel",
+            "fr": "Farfuret",
+            "scoreGroup": "sneasel"
+          },
+          {
+            "id": 216,
+            "en": "Teddiursa",
+            "fr": "Teddiursa",
+            "scoreGroup": "teddiursa"
+          },
+          {
+            "id": 217,
+            "en": "Ursaring",
+            "fr": "Ursaring",
+            "scoreGroup": "ursaring"
+          },
+          {
+            "id": 218,
+            "en": "Slugma",
+            "fr": "Limagma",
+            "scoreGroup": "slugma"
+          },
+          {
+            "id": 219,
+            "en": "Magcargo",
+            "fr": "Volcaropod",
+            "scoreGroup": "magcargo"
+          },
+          {
+            "id": 220,
+            "en": "Swinub",
+            "fr": "Marcacrin",
+            "scoreGroup": "swinub"
+          },
+          {
+            "id": 221,
+            "en": "Piloswine",
+            "fr": "Cochignon",
+            "scoreGroup": "piloswine"
+          },
+          {
+            "id": 222,
+            "en": "Corsola",
+            "fr": "Corayon",
+            "scoreGroup": "corsola", "types": ['water', 'rock']
+          },
+          {
+            "id": 223,
+            "en": "Remoraid",
+            "fr": "Rémoraid",
+            "scoreGroup": "remoraid"
+          },
+          {
+            "id": 224,
+            "en": "Octillery",
+            "fr": "Octillery",
+            "scoreGroup": "octillery"
+          },
+          {
+            "id": 225,
+            "en": "Delibird",
+            "fr": "Cadoizo",
+            "scoreGroup": "delibird"
+          },
+          {
+            "id": 226,
+            "en": "Mantine",
+            "fr": "Démanta",
+            "scoreGroup": "mantine"
+          },
+          {
+            "id": 227,
+            "en": "Skarmory",
+            "fr": "Airmure",
+            "scoreGroup": "skarmory"
+          },
+          {
+            "id": 228,
+            "en": "Houndour",
+            "fr": "Malosse",
+            "scoreGroup": "houndour"
+          },
+          {
+            "id": 229,
+            "en": "Houndoom",
+            "fr": "Démolosse",
+            "scoreGroup": "houndoom"
+          },
+          {
+            "id": 230,
+            "en": "Kingdra",
+            "fr": "Hyporoi",
+            "scoreGroup": "kingdra"
+          },
+          {
+            "id": 231,
+            "en": "Phanpy",
+            "fr": "Phanpy",
+            "scoreGroup": "phanpy"
+          },
+          {
+            "id": 232,
+            "en": "Donphan",
+            "fr": "Donphan",
+            "scoreGroup": "donphan"
+          },
+          {
+            "id": 233,
+            "en": "Porygon2",
+            "fr": "Porygon2",
+            "scoreGroup": "porygon2"
+          },
+          {
+            "id": 234,
+            "en": "Stantler",
+            "fr": "Cerfrousse",
+            "scoreGroup": "stantler"
+          },
+          {
+            "id": 235,
+            "en": "Smeargle",
+            "fr": "Queulorior",
+            "scoreGroup": "smeargle"
+          },
+          {
+            "id": 236,
+            "en": "Tyrogue",
+            "fr": "Debugant",
+            "scoreGroup": "tyrogue"
+          },
+          {
+            "id": 237,
+            "en": "Hitmontop",
+            "fr": "Kapoera",
+            "scoreGroup": "hitmontop"
+          },
+          {
+            "id": 238,
+            "en": "Smoochum",
+            "fr": "Lippouti",
+            "scoreGroup": "smoochum"
+          },
+          {
+            "id": 239,
+            "en": "Elekid",
+            "fr": "Élekid",
+            "scoreGroup": "elekid"
+          },
+          {
+            "id": 240,
+            "en": "Magby",
+            "fr": "Magby",
+            "scoreGroup": "magby"
+          },
+          {
+            "id": 241,
+            "en": "Miltank",
+            "fr": "Écrémeuh",
+            "scoreGroup": "miltank"
+          },
+          {
+            "id": 242,
+            "en": "Blissey",
+            "fr": "Leuphorie",
+            "scoreGroup": "blissey"
+          },
+          {
+            "id": 243,
+            "en": "Raikou",
+            "fr": "Raikou",
+            "scoreGroup": "raikou"
+          },
+          {
+            "id": 244,
+            "en": "Entei",
+            "fr": "Entei",
+            "scoreGroup": "entei"
+          },
+          {
+            "id": 245,
+            "en": "Suicune",
+            "fr": "Suicune",
+            "scoreGroup": "suicune"
+          },
+          {
+            "id": 246,
+            "en": "Larvitar",
+            "fr": "Embrylex",
+            "scoreGroup": "larvitar"
+          },
+          {
+            "id": 247,
+            "en": "Pupitar",
+            "fr": "Ymphect",
+            "scoreGroup": "pupitar"
+          },
+          {
+            "id": 248,
+            "en": "Tyranitar",
+            "fr": "Tyranocif",
+            "scoreGroup": "tyranitar"
+          },
+          {
+            "id": 249,
+            "en": "Lugia",
+            "fr": "Lugia",
+            "scoreGroup": "lugia"
+          },
+          {
+            "id": 250,
+            "en": "Ho-Oh",
+            "fr": "Ho-Oh",
+            "scoreGroup": "ho-oh"
+          },
+          {
+            "id": 251,
+            "en": "Celebi",
+            "fr": "Celebi",
+            "scoreGroup": "celebi"
+          }
+        ]
+      },
+      {
+        "key": "gen3",
+        "title": "Hoenn",
+        "entries": [
+          {
+            "id": 252,
+            "en": "Treecko",
+            "fr": "Arcko",
+            "scoreGroup": "treecko"
+          },
+          {
+            "id": 253,
+            "en": "Grovyle",
+            "fr": "Massko",
+            "scoreGroup": "grovyle"
+          },
+          {
+            "id": 254,
+            "en": "Sceptile",
+            "fr": "Jungko",
+            "scoreGroup": "sceptile"
+          },
+          {
+            "id": 255,
+            "en": "Torchic",
+            "fr": "Poussifeu",
+            "scoreGroup": "torchic"
+          },
+          {
+            "id": 256,
+            "en": "Combusken",
+            "fr": "Galifeu",
+            "scoreGroup": "combusken"
+          },
+          {
+            "id": 257,
+            "en": "Blaziken",
+            "fr": "Braségali",
+            "scoreGroup": "blaziken"
+          },
+          {
+            "id": 258,
+            "en": "Mudkip",
+            "fr": "Gobou",
+            "scoreGroup": "mudkip"
+          },
+          {
+            "id": 259,
+            "en": "Marshtomp",
+            "fr": "Flobio",
+            "scoreGroup": "marshtomp"
+          },
+          {
+            "id": 260,
+            "en": "Swampert",
+            "fr": "Laggron",
+            "scoreGroup": "swampert"
+          },
+          {
+            "id": 261,
+            "en": "Poochyena",
+            "fr": "Medhyèna",
+            "scoreGroup": "poochyena"
+          },
+          {
+            "id": 262,
+            "en": "Mightyena",
+            "fr": "Grahyèna",
+            "scoreGroup": "mightyena"
+          },
+          {
+            "id": 263,
+            "en": "Zigzagoon",
+            "fr": "Zigzaton",
+            "scoreGroup": "zigzagoon"
+          },
+          {
+            "id": 264,
+            "en": "Linoone",
+            "fr": "Linéon",
+            "scoreGroup": "linoone"
+          },
+          {
+            "id": 265,
+            "en": "Wurmple",
+            "fr": "Chenipotte",
+            "scoreGroup": "wurmple"
+          },
+          {
+            "id": 266,
+            "en": "Silcoon",
+            "fr": "Armulys",
+            "scoreGroup": "silcoon"
+          },
+          {
+            "id": 267,
+            "en": "Beautifly",
+            "fr": "Charmillon",
+            "scoreGroup": "beautifly"
+          },
+          {
+            "id": 268,
+            "en": "Cascoon",
+            "fr": "Blindalys",
+            "scoreGroup": "cascoon"
+          },
+          {
+            "id": 269,
+            "en": "Dustox",
+            "fr": "Papinox",
+            "scoreGroup": "dustox"
+          },
+          {
+            "id": 270,
+            "en": "Lotad",
+            "fr": "Nénupiot",
+            "scoreGroup": "lotad", "types": ['water', 'grass']
+          },
+          {
+            "id": 271,
+            "en": "Lombre",
+            "fr": "Lombre",
+            "scoreGroup": "lombre", "types": ['water', 'grass']
+          },
+          {
+            "id": 272,
+            "en": "Ludicolo",
+            "fr": "Ludicolo",
+            "scoreGroup": "ludicolo", "types": ['water', 'grass']
+          },
+          {
+            "id": 273,
+            "en": "Seedot",
+            "fr": "Grainipiot",
+            "scoreGroup": "seedot"
+          },
+          {
+            "id": 274,
+            "en": "Nuzleaf",
+            "fr": "Pifeuil",
+            "scoreGroup": "nuzleaf"
+          },
+          {
+            "id": 275,
+            "en": "Shiftry",
+            "fr": "Tengalice",
+            "scoreGroup": "shiftry"
+          },
+          {
+            "id": 276,
+            "en": "Taillow",
+            "fr": "Nirondelle",
+            "scoreGroup": "taillow"
+          },
+          {
+            "id": 277,
+            "en": "Swellow",
+            "fr": "Hélédelle",
+            "scoreGroup": "swellow"
+          },
+          {
+            "id": 278,
+            "en": "Wingull",
+            "fr": "Goélise",
+            "scoreGroup": "wingull"
+          },
+          {
+            "id": 279,
+            "en": "Pelipper",
+            "fr": "Bekipan",
+            "scoreGroup": "pelipper"
+          },
+          {
+            "id": 280,
+            "en": "Ralts",
+            "fr": "Tarsal",
+            "scoreGroup": "ralts"
+          },
+          {
+            "id": 281,
+            "en": "Kirlia",
+            "fr": "Kirlia",
+            "scoreGroup": "kirlia"
+          },
+          {
+            "id": 282,
+            "en": "Gardevoir",
+            "fr": "Gardevoir",
+            "scoreGroup": "gardevoir"
+          },
+          {
+            "id": 283,
+            "en": "Surskit",
+            "fr": "Arakdo",
+            "scoreGroup": "surskit"
+          },
+          {
+            "id": 284,
+            "en": "Masquerain",
+            "fr": "Maskadra",
+            "scoreGroup": "masquerain"
+          },
+          {
+            "id": 285,
+            "en": "Shroomish",
+            "fr": "Balignon",
+            "scoreGroup": "shroomish"
+          },
+          {
+            "id": 286,
+            "en": "Breloom",
+            "fr": "Chapignon",
+            "scoreGroup": "breloom"
+          },
+          {
+            "id": 287,
+            "en": "Slakoth",
+            "fr": "Parecool",
+            "scoreGroup": "slakoth"
+          },
+          {
+            "id": 288,
+            "en": "Vigoroth",
+            "fr": "Vigoroth",
+            "scoreGroup": "vigoroth"
+          },
+          {
+            "id": 289,
+            "en": "Slaking",
+            "fr": "Monaflèmit",
+            "scoreGroup": "slaking"
+          },
+          {
+            "id": 290,
+            "en": "Nincada",
+            "fr": "Ningale",
+            "scoreGroup": "nincada"
+          },
+          {
+            "id": 291,
+            "en": "Ninjask",
+            "fr": "Ninjask",
+            "scoreGroup": "ninjask"
+          },
+          {
+            "id": 292,
+            "en": "Shedinja",
+            "fr": "Munja",
+            "scoreGroup": "shedinja"
+          },
+          {
+            "id": 293,
+            "en": "Whismur",
+            "fr": "Chuchmur",
+            "scoreGroup": "whismur"
+          },
+          {
+            "id": 294,
+            "en": "Loudred",
+            "fr": "Ramboum",
+            "scoreGroup": "loudred"
+          },
+          {
+            "id": 295,
+            "en": "Exploud",
+            "fr": "Brouhabam",
+            "scoreGroup": "exploud"
+          },
+          {
+            "id": 296,
+            "en": "Makuhita",
+            "fr": "Makuhita",
+            "scoreGroup": "makuhita"
+          },
+          {
+            "id": 297,
+            "en": "Hariyama",
+            "fr": "Hariyama",
+            "scoreGroup": "hariyama"
+          },
+          {
+            "id": 298,
+            "en": "Azurill",
+            "fr": "Azurill",
+            "scoreGroup": "azurill"
+          },
+          {
+            "id": 299,
+            "en": "Nosepass",
+            "fr": "Tarinor",
+            "scoreGroup": "nosepass"
+          },
+          {
+            "id": 300,
+            "en": "Skitty",
+            "fr": "Skitty",
+            "scoreGroup": "skitty"
+          },
+          {
+            "id": 301,
+            "en": "Delcatty",
+            "fr": "Delcatty",
+            "scoreGroup": "delcatty"
+          },
+          {
+            "id": 302,
+            "en": "Sableye",
+            "fr": "Ténéfix",
+            "scoreGroup": "sableye", "types": ['dark', 'ghost']
+          },
+          {
+            "id": 303,
+            "en": "Mawile",
+            "fr": "Mysdibule",
+            "scoreGroup": "mawile"
+          },
+          {
+            "id": 304,
+            "en": "Aron",
+            "fr": "Galekid",
+            "scoreGroup": "aron"
+          },
+          {
+            "id": 305,
+            "en": "Lairon",
+            "fr": "Galegon",
+            "scoreGroup": "lairon"
+          },
+          {
+            "id": 306,
+            "en": "Aggron",
+            "fr": "Galeking",
+            "scoreGroup": "aggron"
+          },
+          {
+            "id": 307,
+            "en": "Meditite",
+            "fr": "Méditikka",
+            "scoreGroup": "meditite"
+          },
+          {
+            "id": 308,
+            "en": "Medicham",
+            "fr": "Charmina",
+            "scoreGroup": "medicham"
+          },
+          {
+            "id": 309,
+            "en": "Electrike",
+            "fr": "Dynavolt",
+            "scoreGroup": "electrike"
+          },
+          {
+            "id": 310,
+            "en": "Manectric",
+            "fr": "Élecsprint",
+            "scoreGroup": "manectric"
+          },
+          {
+            "id": 311,
+            "en": "Plusle",
+            "fr": "Posipi",
+            "scoreGroup": "plusle"
+          },
+          {
+            "id": 312,
+            "en": "Minun",
+            "fr": "Négapi",
+            "scoreGroup": "minun"
+          },
+          {
+            "id": 313,
+            "en": "Volbeat",
+            "fr": "Muciole",
+            "scoreGroup": "volbeat"
+          },
+          {
+            "id": 314,
+            "en": "Illumise",
+            "fr": "Lumivole",
+            "scoreGroup": "illumise"
+          },
+          {
+            "id": 315,
+            "en": "Roselia",
+            "fr": "Rosélia",
+            "scoreGroup": "roselia"
+          },
+          {
+            "id": 316,
+            "en": "Gulpin",
+            "fr": "Gloupti",
+            "scoreGroup": "gulpin"
+          },
+          {
+            "id": 317,
+            "en": "Swalot",
+            "fr": "Avaltout",
+            "scoreGroup": "swalot"
+          },
+          {
+            "id": 318,
+            "en": "Carvanha",
+            "fr": "Carvanha",
+            "scoreGroup": "carvanha"
+          },
+          {
+            "id": 319,
+            "en": "Sharpedo",
+            "fr": "Sharpedo",
+            "scoreGroup": "sharpedo"
+          },
+          {
+            "id": 320,
+            "en": "Wailmer",
+            "fr": "Wailmer",
+            "scoreGroup": "wailmer"
+          },
+          {
+            "id": 321,
+            "en": "Wailord",
+            "fr": "Wailord",
+            "scoreGroup": "wailord"
+          },
+          {
+            "id": 322,
+            "en": "Numel",
+            "fr": "Chamallot",
+            "scoreGroup": "numel"
+          },
+          {
+            "id": 323,
+            "en": "Camerupt",
+            "fr": "Camérupt",
+            "scoreGroup": "camerupt"
+          },
+          {
+            "id": 324,
+            "en": "Torkoal",
+            "fr": "Chartor",
+            "scoreGroup": "torkoal"
+          },
+          {
+            "id": 325,
+            "en": "Spoink",
+            "fr": "Spoink",
+            "scoreGroup": "spoink"
+          },
+          {
+            "id": 326,
+            "en": "Grumpig",
+            "fr": "Groret",
+            "scoreGroup": "grumpig"
+          },
+          {
+            "id": 327,
+            "en": "Spinda",
+            "fr": "Spinda",
+            "scoreGroup": "spinda"
+          },
+          {
+            "id": 328,
+            "en": "Trapinch",
+            "fr": "Kraknoix",
+            "scoreGroup": "trapinch"
+          },
+          {
+            "id": 329,
+            "en": "Vibrava",
+            "fr": "Vibraninf",
+            "scoreGroup": "vibrava"
+          },
+          {
+            "id": 330,
+            "en": "Flygon",
+            "fr": "Libégon",
+            "scoreGroup": "flygon"
+          },
+          {
+            "id": 331,
+            "en": "Cacnea",
+            "fr": "Cacnea",
+            "scoreGroup": "cacnea"
+          },
+          {
+            "id": 332,
+            "en": "Cacturne",
+            "fr": "Cacturne",
+            "scoreGroup": "cacturne"
+          },
+          {
+            "id": 333,
+            "en": "Swablu",
+            "fr": "Tylton",
+            "scoreGroup": "swablu"
+          },
+          {
+            "id": 334,
+            "en": "Altaria",
+            "fr": "Altaria",
+            "scoreGroup": "altaria"
+          },
+          {
+            "id": 335,
+            "en": "Zangoose",
+            "fr": "Mangriff",
+            "scoreGroup": "zangoose"
+          },
+          {
+            "id": 336,
+            "en": "Seviper",
+            "fr": "Séviper",
+            "scoreGroup": "seviper"
+          },
+          {
+            "id": 337,
+            "en": "Lunatone",
+            "fr": "Séléroc",
+            "scoreGroup": "lunatone"
+          },
+          {
+            "id": 338,
+            "en": "Solrock",
+            "fr": "Solaroc",
+            "scoreGroup": "solrock"
+          },
+          {
+            "id": 339,
+            "en": "Barboach",
+            "fr": "Barloche",
+            "scoreGroup": "barboach"
+          },
+          {
+            "id": 340,
+            "en": "Whiscash",
+            "fr": "Barbicha",
+            "scoreGroup": "whiscash"
+          },
+          {
+            "id": 341,
+            "en": "Corphish",
+            "fr": "Écrapince",
+            "scoreGroup": "corphish"
+          },
+          {
+            "id": 342,
+            "en": "Crawdaunt",
+            "fr": "Colhomard",
+            "scoreGroup": "crawdaunt"
+          },
+          {
+            "id": 343,
+            "en": "Baltoy",
+            "fr": "Balbuto",
+            "scoreGroup": "baltoy"
+          },
+          {
+            "id": 344,
+            "en": "Claydol",
+            "fr": "Kaorine",
+            "scoreGroup": "claydol"
+          },
+          {
+            "id": 345,
+            "en": "Lileep",
+            "fr": "Lilia",
+            "scoreGroup": "lileep"
+          },
+          {
+            "id": 346,
+            "en": "Cradily",
+            "fr": "Vacilys",
+            "scoreGroup": "cradily"
+          },
+          {
+            "id": 347,
+            "en": "Anorith",
+            "fr": "Anorith",
+            "scoreGroup": "anorith"
+          },
+          {
+            "id": 348,
+            "en": "Armaldo",
+            "fr": "Armaldo",
+            "scoreGroup": "armaldo"
+          },
+          {
+            "id": 349,
+            "en": "Feebas",
+            "fr": "Barpau",
+            "scoreGroup": "feebas"
+          },
+          {
+            "id": 350,
+            "en": "Milotic",
+            "fr": "Milobellus",
+            "scoreGroup": "milotic"
+          },
+          {
+            "id": 351,
+            "en": "Castform",
+            "fr": "Morphéo",
+            "scoreGroup": "castform"
+          },
+          {
+            "id": 352,
+            "en": "Kecleon",
+            "fr": "Kecleon",
+            "scoreGroup": "kecleon"
+          },
+          {
+            "id": 353,
+            "en": "Shuppet",
+            "fr": "Polichombr",
+            "scoreGroup": "shuppet"
+          },
+          {
+            "id": 354,
+            "en": "Banette",
+            "fr": "Branette",
+            "scoreGroup": "banette"
+          },
+          {
+            "id": 355,
+            "en": "Duskull",
+            "fr": "Skelénox",
+            "scoreGroup": "duskull"
+          },
+          {
+            "id": 356,
+            "en": "Dusclops",
+            "fr": "Téraclope",
+            "scoreGroup": "dusclops"
+          },
+          {
+            "id": 357,
+            "en": "Tropius",
+            "fr": "Tropius",
+            "scoreGroup": "tropius"
+          },
+          {
+            "id": 358,
+            "en": "Chimecho",
+            "fr": "Éoko",
+            "scoreGroup": "chimecho"
+          },
+          {
+            "id": 359,
+            "en": "Absol",
+            "fr": "Absol",
+            "scoreGroup": "absol"
+          },
+          {
+            "id": 360,
+            "en": "Wynaut",
+            "fr": "Okéoké",
+            "scoreGroup": "wynaut"
+          },
+          {
+            "id": 361,
+            "en": "Snorunt",
+            "fr": "Stalgamin",
+            "scoreGroup": "snorunt"
+          },
+          {
+            "id": 362,
+            "en": "Glalie",
+            "fr": "Oniglali",
+            "scoreGroup": "glalie"
+          },
+          {
+            "id": 363,
+            "en": "Spheal",
+            "fr": "Obalie",
+            "scoreGroup": "spheal"
+          },
+          {
+            "id": 364,
+            "en": "Sealeo",
+            "fr": "Phogleur",
+            "scoreGroup": "sealeo"
+          },
+          {
+            "id": 365,
+            "en": "Walrein",
+            "fr": "Kaimorse",
+            "scoreGroup": "walrein"
+          },
+          {
+            "id": 366,
+            "en": "Clamperl",
+            "fr": "Coquiperl",
+            "scoreGroup": "clamperl"
+          },
+          {
+            "id": 367,
+            "en": "Huntail",
+            "fr": "Serpang",
+            "scoreGroup": "huntail"
+          },
+          {
+            "id": 368,
+            "en": "Gorebyss",
+            "fr": "Rosabyss",
+            "scoreGroup": "gorebyss"
+          },
+          {
+            "id": 369,
+            "en": "Relicanth",
+            "fr": "Relicanth",
+            "scoreGroup": "relicanth"
+          },
+          {
+            "id": 370,
+            "en": "Luvdisc",
+            "fr": "Lovdisc",
+            "scoreGroup": "luvdisc"
+          },
+          {
+            "id": 371,
+            "en": "Bagon",
+            "fr": "Draby",
+            "scoreGroup": "bagon"
+          },
+          {
+            "id": 372,
+            "en": "Shelgon",
+            "fr": "Drackhaus",
+            "scoreGroup": "shelgon"
+          },
+          {
+            "id": 373,
+            "en": "Salamence",
+            "fr": "Drattak",
+            "scoreGroup": "salamence"
+          },
+          {
+            "id": 374,
+            "en": "Beldum",
+            "fr": "Terhal",
+            "scoreGroup": "beldum"
+          },
+          {
+            "id": 375,
+            "en": "Metang",
+            "fr": "Métang",
+            "scoreGroup": "metang"
+          },
+          {
+            "id": 376,
+            "en": "Metagross",
+            "fr": "Métalosse",
+            "scoreGroup": "metagross"
+          },
+          {
+            "id": 377,
+            "en": "Regirock",
+            "fr": "Regirock",
+            "scoreGroup": "regirock"
+          },
+          {
+            "id": 378,
+            "en": "Regice",
+            "fr": "Regice",
+            "scoreGroup": "regice"
+          },
+          {
+            "id": 379,
+            "en": "Registeel",
+            "fr": "Registeel",
+            "scoreGroup": "registeel"
+          },
+          {
+            "id": 380,
+            "en": "Latias",
+            "fr": "Latias",
+            "scoreGroup": "latias"
+          },
+          {
+            "id": 381,
+            "en": "Latios",
+            "fr": "Latios",
+            "scoreGroup": "latios"
+          },
+          {
+            "id": 382,
+            "en": "Kyogre",
+            "fr": "Kyogre",
+            "scoreGroup": "kyogre"
+          },
+          {
+            "id": 383,
+            "en": "Groudon",
+            "fr": "Groudon",
+            "scoreGroup": "groudon"
+          },
+          {
+            "id": 384,
+            "en": "Rayquaza",
+            "fr": "Rayquaza",
+            "scoreGroup": "rayquaza"
+          },
+          {
+            "id": 385,
+            "en": "Jirachi",
+            "fr": "Jirachi",
+            "scoreGroup": "jirachi"
+          },
+          {
+            "id": 386,
+            "en": "Deoxys",
+            "fr": "Deoxys",
+            "scoreGroup": "deoxys"
+          }
+        ]
+      },
+      {
+        "key": "gen4",
+        "title": "Sinnoh",
+        "entries": [
+          {
+            "id": 387,
+            "en": "Turtwig",
+            "fr": "Tortipouss",
+            "scoreGroup": "turtwig"
+          },
+          {
+            "id": 388,
+            "en": "Grotle",
+            "fr": "Boskara",
+            "scoreGroup": "grotle"
+          },
+          {
+            "id": 389,
+            "en": "Torterra",
+            "fr": "Torterra",
+            "scoreGroup": "torterra"
+          },
+          {
+            "id": 390,
+            "en": "Chimchar",
+            "fr": "Ouisticram",
+            "scoreGroup": "chimchar"
+          },
+          {
+            "id": 391,
+            "en": "Monferno",
+            "fr": "Chimpenfeu",
+            "scoreGroup": "monferno"
+          },
+          {
+            "id": 392,
+            "en": "Infernape",
+            "fr": "Simiabraz",
+            "scoreGroup": "infernape"
+          },
+          {
+            "id": 393,
+            "en": "Piplup",
+            "fr": "Tiplouf",
+            "scoreGroup": "piplup"
+          },
+          {
+            "id": 394,
+            "en": "Prinplup",
+            "fr": "Prinplouf",
+            "scoreGroup": "prinplup"
+          },
+          {
+            "id": 395,
+            "en": "Empoleon",
+            "fr": "Pingoléon",
+            "scoreGroup": "empoleon"
+          },
+          {
+            "id": 396,
+            "en": "Starly",
+            "fr": "Étourmi",
+            "scoreGroup": "starly"
+          },
+          {
+            "id": 397,
+            "en": "Staravia",
+            "fr": "Étourvol",
+            "scoreGroup": "staravia"
+          },
+          {
+            "id": 398,
+            "en": "Staraptor",
+            "fr": "Étouraptor",
+            "scoreGroup": "staraptor"
+          },
+          {
+            "id": 399,
+            "en": "Bidoof",
+            "fr": "Keunotor",
+            "scoreGroup": "bidoof"
+          },
+          {
+            "id": 400,
+            "en": "Bibarel",
+            "fr": "Castorno",
+            "scoreGroup": "bibarel"
+          },
+          {
+            "id": 401,
+            "en": "Kricketot",
+            "fr": "Crikzik",
+            "scoreGroup": "kricketot"
+          },
+          {
+            "id": 402,
+            "en": "Kricketune",
+            "fr": "Mélokrik",
+            "scoreGroup": "kricketune"
+          },
+          {
+            "id": 403,
+            "en": "Shinx",
+            "fr": "Lixy",
+            "scoreGroup": "shinx"
+          },
+          {
+            "id": 404,
+            "en": "Luxio",
+            "fr": "Luxio",
+            "scoreGroup": "luxio"
+          },
+          {
+            "id": 405,
+            "en": "Luxray",
+            "fr": "Luxray",
+            "scoreGroup": "luxray"
+          },
+          {
+            "id": 406,
+            "en": "Budew",
+            "fr": "Rozbouton",
+            "scoreGroup": "budew"
+          },
+          {
+            "id": 407,
+            "en": "Roserade",
+            "fr": "Roserade",
+            "scoreGroup": "roserade"
+          },
+          {
+            "id": 408,
+            "en": "Cranidos",
+            "fr": "Kranidos",
+            "scoreGroup": "cranidos"
+          },
+          {
+            "id": 409,
+            "en": "Rampardos",
+            "fr": "Charkos",
+            "scoreGroup": "rampardos"
+          },
+          {
+            "id": 410,
+            "en": "Shieldon",
+            "fr": "Dinoclier",
+            "scoreGroup": "shieldon"
+          },
+          {
+            "id": 411,
+            "en": "Bastiodon",
+            "fr": "Bastiodon",
+            "scoreGroup": "bastiodon"
+          },
+          {
+            "id": 412,
+            "en": "Burmy",
+            "fr": "Cheniti",
+            "scoreGroup": "burmy"
+          },
+          {
+            "id": 413,
+            "en": "Wormadam",
+            "fr": "Cheniselle",
+            "scoreGroup": "wormadam"
+          },
+          {
+            "id": 414,
+            "en": "Mothim",
+            "fr": "Papilord",
+            "scoreGroup": "mothim"
+          },
+          {
+            "id": 415,
+            "en": "Combee",
+            "fr": "Apitrini",
+            "scoreGroup": "combee"
+          },
+          {
+            "id": 416,
+            "en": "Vespiquen",
+            "fr": "Apireine",
+            "scoreGroup": "vespiquen"
+          },
+          {
+            "id": 417,
+            "en": "Pachirisu",
+            "fr": "Pachirisu",
+            "scoreGroup": "pachirisu"
+          },
+          {
+            "id": 418,
+            "en": "Buizel",
+            "fr": "Mustébouée",
+            "scoreGroup": "buizel", "types": ['water']
+          },
+          {
+            "id": 419,
+            "en": "Floatzel",
+            "fr": "Mustéflott",
+            "scoreGroup": "floatzel", "types": ['water']
+          },
+          {
+            "id": 420,
+            "en": "Cherubi",
+            "fr": "Ceribou",
+            "scoreGroup": "cherubi"
+          },
+          {
+            "id": 421,
+            "en": "Cherrim",
+            "fr": "Ceriflor",
+            "scoreGroup": "cherrim"
+          },
+          {
+            "id": 422,
+            "en": "Shellos",
+            "fr": "Sancoki",
+            "scoreGroup": "shellos"
+          },
+          {
+            "id": 423,
+            "en": "Gastrodon",
+            "fr": "Tritosor",
+            "scoreGroup": "gastrodon"
+          },
+          {
+            "id": 424,
+            "en": "Ambipom",
+            "fr": "Capidextre",
+            "scoreGroup": "ambipom"
+          },
+          {
+            "id": 425,
+            "en": "Drifloon",
+            "fr": "Baudrive",
+            "scoreGroup": "drifloon"
+          },
+          {
+            "id": 426,
+            "en": "Drifblim",
+            "fr": "Grodrive",
+            "scoreGroup": "drifblim"
+          },
+          {
+            "id": 427,
+            "en": "Buneary",
+            "fr": "Laporeille",
+            "scoreGroup": "buneary"
+          },
+          {
+            "id": 428,
+            "en": "Lopunny",
+            "fr": "Lockpin",
+            "scoreGroup": "lopunny"
+          },
+          {
+            "id": 429,
+            "en": "Mismagius",
+            "fr": "Magirêve",
+            "scoreGroup": "mismagius", "types": ['ghost']
+          },
+          {
+            "id": 430,
+            "en": "Honchkrow",
+            "fr": "Corboss",
+            "scoreGroup": "honchkrow"
+          },
+          {
+            "id": 431,
+            "en": "Glameow",
+            "fr": "Chaglam",
+            "scoreGroup": "glameow"
+          },
+          {
+            "id": 432,
+            "en": "Purugly",
+            "fr": "Chaffreux",
+            "scoreGroup": "purugly"
+          },
+          {
+            "id": 433,
+            "en": "Chingling",
+            "fr": "Korillon",
+            "scoreGroup": "chingling"
+          },
+          {
+            "id": 434,
+            "en": "Stunky",
+            "fr": "Moufouette",
+            "scoreGroup": "stunky"
+          },
+          {
+            "id": 435,
+            "en": "Skuntank",
+            "fr": "Moufflair",
+            "scoreGroup": "skuntank"
+          },
+          {
+            "id": 436,
+            "en": "Bronzor",
+            "fr": "Archéomire",
+            "scoreGroup": "bronzor"
+          },
+          {
+            "id": 437,
+            "en": "Bronzong",
+            "fr": "Archéodong",
+            "scoreGroup": "bronzong"
+          },
+          {
+            "id": 438,
+            "en": "Bonsly",
+            "fr": "Manzaï",
+            "scoreGroup": "bonsly"
+          },
+          {
+            "id": 439,
+            "en": "Mime Jr.",
+            "fr": "Mime Jr.",
+            "scoreGroup": "mime-jr."
+          },
+          {
+            "id": 440,
+            "en": "Happiny",
+            "fr": "Ptiravi",
+            "scoreGroup": "happiny"
+          },
+          {
+            "id": 441,
+            "en": "Chatot",
+            "fr": "Pijako",
+            "scoreGroup": "chatot"
+          },
+          {
+            "id": 442,
+            "en": "Spiritomb",
+            "fr": "Spiritomb",
+            "scoreGroup": "spiritomb"
+          },
+          {
+            "id": 443,
+            "en": "Gible",
+            "fr": "Griknot",
+            "scoreGroup": "gible"
+          },
+          {
+            "id": 444,
+            "en": "Gabite",
+            "fr": "Carmache",
+            "scoreGroup": "gabite"
+          },
+          {
+            "id": 445,
+            "en": "Garchomp",
+            "fr": "Carchacrok",
+            "scoreGroup": "garchomp"
+          },
+          {
+            "id": 446,
+            "en": "Munchlax",
+            "fr": "Goinfrex",
+            "scoreGroup": "munchlax"
+          },
+          {
+            "id": 447,
+            "en": "Riolu",
+            "fr": "Riolu",
+            "scoreGroup": "riolu"
+          },
+          {
+            "id": 448,
+            "en": "Lucario",
+            "fr": "Lucario",
+            "scoreGroup": "lucario"
+          },
+          {
+            "id": 449,
+            "en": "Hippopotas",
+            "fr": "Hippopotas",
+            "scoreGroup": "hippopotas"
+          },
+          {
+            "id": 450,
+            "en": "Hippowdon",
+            "fr": "Hippodocus",
+            "scoreGroup": "hippowdon"
+          },
+          {
+            "id": 451,
+            "en": "Skorupi",
+            "fr": "Rapion",
+            "scoreGroup": "skorupi"
+          },
+          {
+            "id": 452,
+            "en": "Drapion",
+            "fr": "Drascore",
+            "scoreGroup": "drapion"
+          },
+          {
+            "id": 453,
+            "en": "Croagunk",
+            "fr": "Cradopaud",
+            "scoreGroup": "croagunk"
+          },
+          {
+            "id": 454,
+            "en": "Toxicroak",
+            "fr": "Coatox",
+            "scoreGroup": "toxicroak"
+          },
+          {
+            "id": 455,
+            "en": "Carnivine",
+            "fr": "Vortente",
+            "scoreGroup": "carnivine"
+          },
+          {
+            "id": 456,
+            "en": "Finneon",
+            "fr": "Écayon",
+            "scoreGroup": "finneon"
+          },
+          {
+            "id": 457,
+            "en": "Lumineon",
+            "fr": "Luminéon",
+            "scoreGroup": "lumineon"
+          },
+          {
+            "id": 458,
+            "en": "Mantyke",
+            "fr": "Babimanta",
+            "scoreGroup": "mantyke"
+          },
+          {
+            "id": 459,
+            "en": "Snover",
+            "fr": "Blizzi",
+            "scoreGroup": "snover"
+          },
+          {
+            "id": 460,
+            "en": "Abomasnow",
+            "fr": "Blizzaroi",
+            "scoreGroup": "abomasnow"
+          },
+          {
+            "id": 461,
+            "en": "Weavile",
+            "fr": "Dimoret",
+            "scoreGroup": "weavile"
+          },
+          {
+            "id": 462,
+            "en": "Magnezone",
+            "fr": "Magnézone",
+            "scoreGroup": "magnezone"
+          },
+          {
+            "id": 463,
+            "en": "Lickilicky",
+            "fr": "Coudlangue",
+            "scoreGroup": "lickilicky"
+          },
+          {
+            "id": 464,
+            "en": "Rhyperior",
+            "fr": "Rhinastoc",
+            "scoreGroup": "rhyperior"
+          },
+          {
+            "id": 465,
+            "en": "Tangrowth",
+            "fr": "Bouldeneu",
+            "scoreGroup": "tangrowth"
+          },
+          {
+            "id": 466,
+            "en": "Electivire",
+            "fr": "Élekable",
+            "scoreGroup": "electivire"
+          },
+          {
+            "id": 467,
+            "en": "Magmortar",
+            "fr": "Maganon",
+            "scoreGroup": "magmortar"
+          },
+          {
+            "id": 468,
+            "en": "Togekiss",
+            "fr": "Togekiss",
+            "scoreGroup": "togekiss"
+          },
+          {
+            "id": 469,
+            "en": "Yanmega",
+            "fr": "Yanmega",
+            "scoreGroup": "yanmega"
+          },
+          {
+            "id": 470,
+            "en": "Leafeon",
+            "fr": "Phyllali",
+            "scoreGroup": "leafeon", "types": ['grass']
+          },
+          {
+            "id": 471,
+            "en": "Glaceon",
+            "fr": "Givrali",
+            "scoreGroup": "glaceon", "types": ['ice']
+          },
+          {
+            "id": 472,
+            "en": "Gliscor",
+            "fr": "Scorvol",
+            "scoreGroup": "gliscor", "types": ['ground', 'flying']
+          },
+          {
+            "id": 473,
+            "en": "Mamoswine",
+            "fr": "Mammochon",
+            "scoreGroup": "mamoswine"
+          },
+          {
+            "id": 474,
+            "en": "Porygon-Z",
+            "fr": "Porygon-Z",
+            "scoreGroup": "porygon-z"
+          },
+          {
+            "id": 475,
+            "en": "Gallade",
+            "fr": "Gallame",
+            "scoreGroup": "gallade"
+          },
+          {
+            "id": 476,
+            "en": "Probopass",
+            "fr": "Tarinorme",
+            "scoreGroup": "probopass"
+          },
+          {
+            "id": 477,
+            "en": "Dusknoir",
+            "fr": "Noctunoir",
+            "scoreGroup": "dusknoir"
+          },
+          {
+            "id": 478,
+            "en": "Froslass",
+            "fr": "Momartik",
+            "scoreGroup": "froslass"
+          },
+          {
+            "id": 479,
+            "en": "Rotom",
+            "fr": "Motisma",
+            "scoreGroup": "rotom"
+          },
+          {
+            "id": 480,
+            "en": "Uxie",
+            "fr": "Créhelf",
+            "scoreGroup": "uxie"
+          },
+          {
+            "id": 481,
+            "en": "Mesprit",
+            "fr": "Créfollet",
+            "scoreGroup": "mesprit"
+          },
+          {
+            "id": 482,
+            "en": "Azelf",
+            "fr": "Créfadet",
+            "scoreGroup": "azelf"
+          },
+          {
+            "id": 483,
+            "en": "Dialga",
+            "fr": "Dialga",
+            "scoreGroup": "dialga"
+          },
+          {
+            "id": 484,
+            "en": "Palkia",
+            "fr": "Palkia",
+            "scoreGroup": "palkia"
+          },
+          {
+            "id": 485,
+            "en": "Heatran",
+            "fr": "Heatran",
+            "scoreGroup": "heatran"
+          },
+          {
+            "id": 486,
+            "en": "Regigigas",
+            "fr": "Regigigas",
+            "scoreGroup": "regigigas"
+          },
+          {
+            "id": 487,
+            "en": "Giratina",
+            "fr": "Giratina",
+            "scoreGroup": "giratina"
+          },
+          {
+            "id": 488,
+            "en": "Cresselia",
+            "fr": "Cresselia",
+            "scoreGroup": "cresselia"
+          },
+          {
+            "id": 489,
+            "en": "Phione",
+            "fr": "Phione",
+            "scoreGroup": "phione"
+          },
+          {
+            "id": 490,
+            "en": "Manaphy",
+            "fr": "Manaphy",
+            "scoreGroup": "manaphy"
+          },
+          {
+            "id": 491,
+            "en": "Darkrai",
+            "fr": "Darkrai",
+            "scoreGroup": "darkrai"
+          },
+          {
+            "id": 492,
+            "en": "Shaymin",
+            "fr": "Shaymin",
+            "scoreGroup": "shaymin"
+          },
+          {
+            "id": 493,
+            "en": "Arceus",
+            "fr": "Arceus",
+            "scoreGroup": "arceus"
+          }
+        ]
+      },
+      {
+        "key": "gen5",
+        "title": "Unova",
+        "entries": [
+          {
+            "id": 494,
+            "en": "Victini",
+            "fr": "Victini",
+            "scoreGroup": "victini"
+          },
+          {
+            "id": 495,
+            "en": "Snivy",
+            "fr": "Vipélierre",
+            "scoreGroup": "snivy"
+          },
+          {
+            "id": 496,
+            "en": "Servine",
+            "fr": "Lianaja",
+            "scoreGroup": "servine"
+          },
+          {
+            "id": 497,
+            "en": "Serperior",
+            "fr": "Majaspic",
+            "scoreGroup": "serperior"
+          },
+          {
+            "id": 498,
+            "en": "Tepig",
+            "fr": "Gruikui",
+            "scoreGroup": "tepig"
+          },
+          {
+            "id": 499,
+            "en": "Pignite",
+            "fr": "Grotichon",
+            "scoreGroup": "pignite"
+          },
+          {
+            "id": 500,
+            "en": "Emboar",
+            "fr": "Roitiflam",
+            "scoreGroup": "emboar"
+          },
+          {
+            "id": 501,
+            "en": "Oshawott",
+            "fr": "Moustillon",
+            "scoreGroup": "oshawott"
+          },
+          {
+            "id": 502,
+            "en": "Dewott",
+            "fr": "Mateloutre",
+            "scoreGroup": "dewott"
+          },
+          {
+            "id": 503,
+            "en": "Samurott",
+            "fr": "Clamiral",
+            "scoreGroup": "samurott"
+          },
+          {
+            "id": 504,
+            "en": "Patrat",
+            "fr": "Ratentif",
+            "scoreGroup": "patrat"
+          },
+          {
+            "id": 505,
+            "en": "Watchog",
+            "fr": "Miradar",
+            "scoreGroup": "watchog"
+          },
+          {
+            "id": 506,
+            "en": "Lillipup",
+            "fr": "Ponchiot",
+            "scoreGroup": "lillipup"
+          },
+          {
+            "id": 507,
+            "en": "Herdier",
+            "fr": "Ponchien",
+            "scoreGroup": "herdier"
+          },
+          {
+            "id": 508,
+            "en": "Stoutland",
+            "fr": "Mastouffe",
+            "scoreGroup": "stoutland"
+          },
+          {
+            "id": 509,
+            "en": "Purrloin",
+            "fr": "Chacripan",
+            "scoreGroup": "purrloin"
+          },
+          {
+            "id": 510,
+            "en": "Liepard",
+            "fr": "Léopardus",
+            "scoreGroup": "liepard"
+          },
+          {
+            "id": 511,
+            "en": "Pansage",
+            "fr": "Feuillajou",
+            "scoreGroup": "pansage"
+          },
+          {
+            "id": 512,
+            "en": "Simisage",
+            "fr": "Feuiloutan",
+            "scoreGroup": "simisage"
+          },
+          {
+            "id": 513,
+            "en": "Pansear",
+            "fr": "Flamajou",
+            "scoreGroup": "pansear"
+          },
+          {
+            "id": 514,
+            "en": "Simisear",
+            "fr": "Flamoutan",
+            "scoreGroup": "simisear"
+          },
+          {
+            "id": 515,
+            "en": "Panpour",
+            "fr": "Flotajou",
+            "scoreGroup": "panpour"
+          },
+          {
+            "id": 516,
+            "en": "Simipour",
+            "fr": "Flotoutan",
+            "scoreGroup": "simipour"
+          },
+          {
+            "id": 517,
+            "en": "Munna",
+            "fr": "Munna",
+            "scoreGroup": "munna"
+          },
+          {
+            "id": 518,
+            "en": "Musharna",
+            "fr": "Mushana",
+            "scoreGroup": "musharna"
+          },
+          {
+            "id": 519,
+            "en": "Pidove",
+            "fr": "Poichigeon",
+            "scoreGroup": "pidove"
+          },
+          {
+            "id": 520,
+            "en": "Tranquill",
+            "fr": "Colombeau",
+            "scoreGroup": "tranquill"
+          },
+          {
+            "id": 521,
+            "en": "Unfezant",
+            "fr": "Déflaisan",
+            "scoreGroup": "unfezant"
+          },
+          {
+            "id": 522,
+            "en": "Blitzle",
+            "fr": "Zébibron",
+            "scoreGroup": "blitzle"
+          },
+          {
+            "id": 523,
+            "en": "Zebstrika",
+            "fr": "Zéblitz",
+            "scoreGroup": "zebstrika"
+          },
+          {
+            "id": 524,
+            "en": "Roggenrola",
+            "fr": "Nodulithe",
+            "scoreGroup": "roggenrola"
+          },
+          {
+            "id": 525,
+            "en": "Boldore",
+            "fr": "Géolithe",
+            "scoreGroup": "boldore"
+          },
+          {
+            "id": 526,
+            "en": "Gigalith",
+            "fr": "Gigalithe",
+            "scoreGroup": "gigalith"
+          },
+          {
+            "id": 527,
+            "en": "Woobat",
+            "fr": "Chovsourir",
+            "scoreGroup": "woobat"
+          },
+          {
+            "id": 528,
+            "en": "Swoobat",
+            "fr": "Rhinolove",
+            "scoreGroup": "swoobat"
+          },
+          {
+            "id": 529,
+            "en": "Drilbur",
+            "fr": "Rototaupe",
+            "scoreGroup": "drilbur"
+          },
+          {
+            "id": 530,
+            "en": "Excadrill",
+            "fr": "Minotaupe",
+            "scoreGroup": "excadrill"
+          },
+          {
+            "id": 531,
+            "en": "Audino",
+            "fr": "Nanméouïe",
+            "scoreGroup": "audino"
+          },
+          {
+            "id": 532,
+            "en": "Timburr",
+            "fr": "Charpenti",
+            "scoreGroup": "timburr"
+          },
+          {
+            "id": 533,
+            "en": "Gurdurr",
+            "fr": "Ouvrifier",
+            "scoreGroup": "gurdurr"
+          },
+          {
+            "id": 534,
+            "en": "Conkeldurr",
+            "fr": "Bétochef",
+            "scoreGroup": "conkeldurr"
+          },
+          {
+            "id": 535,
+            "en": "Tympole",
+            "fr": "Tritonde",
+            "scoreGroup": "tympole"
+          },
+          {
+            "id": 536,
+            "en": "Palpitoad",
+            "fr": "Batracné",
+            "scoreGroup": "palpitoad"
+          },
+          {
+            "id": 537,
+            "en": "Seismitoad",
+            "fr": "Crapustule",
+            "scoreGroup": "seismitoad"
+          },
+          {
+            "id": 538,
+            "en": "Throh",
+            "fr": "Judokrak",
+            "scoreGroup": "throh"
+          },
+          {
+            "id": 539,
+            "en": "Sawk",
+            "fr": "Karaclée",
+            "scoreGroup": "sawk"
+          },
+          {
+            "id": 540,
+            "en": "Sewaddle",
+            "fr": "Larveyette",
+            "scoreGroup": "sewaddle"
+          },
+          {
+            "id": 541,
+            "en": "Swadloon",
+            "fr": "Couverdure",
+            "scoreGroup": "swadloon"
+          },
+          {
+            "id": 542,
+            "en": "Leavanny",
+            "fr": "Manternel",
+            "scoreGroup": "leavanny"
+          },
+          {
+            "id": 543,
+            "en": "Venipede",
+            "fr": "Venipatte",
+            "scoreGroup": "venipede"
+          },
+          {
+            "id": 544,
+            "en": "Whirlipede",
+            "fr": "Scobolide",
+            "scoreGroup": "whirlipede"
+          },
+          {
+            "id": 545,
+            "en": "Scolipede",
+            "fr": "Brutapode",
+            "scoreGroup": "scolipede"
+          },
+          {
+            "id": 546,
+            "en": "Cottonee",
+            "fr": "Doudouvet",
+            "scoreGroup": "cottonee", "types": ['grass', 'fairy']
+          },
+          {
+            "id": 547,
+            "en": "Whimsicott",
+            "fr": "Farfaduvet",
+            "scoreGroup": "whimsicott", "types": ['grass', 'fairy']
+          },
+          {
+            "id": 548,
+            "en": "Petilil",
+            "fr": "Chlorobule",
+            "scoreGroup": "petilil"
+          },
+          {
+            "id": 549,
+            "en": "Lilligant",
+            "fr": "Fragilady",
+            "scoreGroup": "lilligant"
+          },
+          {
+            "id": 550,
+            "en": "Basculin",
+            "fr": "Bargantua",
+            "scoreGroup": "basculin"
+          },
+          {
+            "id": 551,
+            "en": "Sandile",
+            "fr": "Mascaïman",
+            "scoreGroup": "sandile"
+          },
+          {
+            "id": 552,
+            "en": "Krokorok",
+            "fr": "Escroco",
+            "scoreGroup": "krokorok"
+          },
+          {
+            "id": 553,
+            "en": "Krookodile",
+            "fr": "Crocorible",
+            "scoreGroup": "krookodile"
+          },
+          {
+            "id": 554,
+            "en": "Darumaka",
+            "fr": "Darumarond",
+            "scoreGroup": "darumaka"
+          },
+          {
+            "id": 555,
+            "en": "Darmanitan",
+            "fr": "Darumacho",
+            "scoreGroup": "darmanitan"
+          },
+          {
+            "id": 556,
+            "en": "Maractus",
+            "fr": "Maracachi",
+            "scoreGroup": "maractus"
+          },
+          {
+            "id": 557,
+            "en": "Dwebble",
+            "fr": "Crabicoque",
+            "scoreGroup": "dwebble"
+          },
+          {
+            "id": 558,
+            "en": "Crustle",
+            "fr": "Crabaraque",
+            "scoreGroup": "crustle"
+          },
+          {
+            "id": 559,
+            "en": "Scraggy",
+            "fr": "Baggiguane",
+            "scoreGroup": "scraggy"
+          },
+          {
+            "id": 560,
+            "en": "Scrafty",
+            "fr": "Baggaïd",
+            "scoreGroup": "scrafty"
+          },
+          {
+            "id": 561,
+            "en": "Sigilyph",
+            "fr": "Cryptéro",
+            "scoreGroup": "sigilyph"
+          },
+          {
+            "id": 562,
+            "en": "Yamask",
+            "fr": "Tutafeh",
+            "scoreGroup": "yamask"
+          },
+          {
+            "id": 563,
+            "en": "Cofagrigus",
+            "fr": "Tutankafer",
+            "scoreGroup": "cofagrigus"
+          },
+          {
+            "id": 564,
+            "en": "Tirtouga",
+            "fr": "Carapagos",
+            "scoreGroup": "tirtouga"
+          },
+          {
+            "id": 565,
+            "en": "Carracosta",
+            "fr": "Mégapagos",
+            "scoreGroup": "carracosta"
+          },
+          {
+            "id": 566,
+            "en": "Archen",
+            "fr": "Arkéapti",
+            "scoreGroup": "archen"
+          },
+          {
+            "id": 567,
+            "en": "Archeops",
+            "fr": "Aéroptéryx",
+            "scoreGroup": "archeops"
+          },
+          {
+            "id": 568,
+            "en": "Trubbish",
+            "fr": "Miamiasme",
+            "scoreGroup": "trubbish"
+          },
+          {
+            "id": 569,
+            "en": "Garbodor",
+            "fr": "Miasmax",
+            "scoreGroup": "garbodor"
+          },
+          {
+            "id": 570,
+            "en": "Zorua",
+            "fr": "Zorua",
+            "scoreGroup": "zorua"
+          },
+          {
+            "id": 571,
+            "en": "Zoroark",
+            "fr": "Zoroark",
+            "scoreGroup": "zoroark"
+          },
+          {
+            "id": 572,
+            "en": "Minccino",
+            "fr": "Chinchidou",
+            "scoreGroup": "minccino"
+          },
+          {
+            "id": 573,
+            "en": "Cinccino",
+            "fr": "Pashmilla",
+            "scoreGroup": "cinccino"
+          },
+          {
+            "id": 574,
+            "en": "Gothita",
+            "fr": "Scrutella",
+            "scoreGroup": "gothita"
+          },
+          {
+            "id": 575,
+            "en": "Gothorita",
+            "fr": "Mesmérella",
+            "scoreGroup": "gothorita"
+          },
+          {
+            "id": 576,
+            "en": "Gothitelle",
+            "fr": "Sidérella",
+            "scoreGroup": "gothitelle"
+          },
+          {
+            "id": 577,
+            "en": "Solosis",
+            "fr": "Nucléos",
+            "scoreGroup": "solosis"
+          },
+          {
+            "id": 578,
+            "en": "Duosion",
+            "fr": "Méios",
+            "scoreGroup": "duosion"
+          },
+          {
+            "id": 579,
+            "en": "Reuniclus",
+            "fr": "Symbios",
+            "scoreGroup": "reuniclus"
+          },
+          {
+            "id": 580,
+            "en": "Ducklett",
+            "fr": "Couaneton",
+            "scoreGroup": "ducklett"
+          },
+          {
+            "id": 581,
+            "en": "Swanna",
+            "fr": "Lakmécygne",
+            "scoreGroup": "swanna"
+          },
+          {
+            "id": 582,
+            "en": "Vanillite",
+            "fr": "Sorbébé",
+            "scoreGroup": "vanillite"
+          },
+          {
+            "id": 583,
+            "en": "Vanillish",
+            "fr": "Sorboul",
+            "scoreGroup": "vanillish"
+          },
+          {
+            "id": 584,
+            "en": "Vanilluxe",
+            "fr": "Sorbouboul",
+            "scoreGroup": "vanilluxe"
+          },
+          {
+            "id": 585,
+            "en": "Deerling",
+            "fr": "Vivaldaim",
+            "scoreGroup": "deerling"
+          },
+          {
+            "id": 586,
+            "en": "Sawsbuck",
+            "fr": "Haydaim",
+            "scoreGroup": "sawsbuck"
+          },
+          {
+            "id": 587,
+            "en": "Emolga",
+            "fr": "Emolga",
+            "scoreGroup": "emolga"
+          },
+          {
+            "id": 588,
+            "en": "Karrablast",
+            "fr": "Carabing",
+            "scoreGroup": "karrablast"
+          },
+          {
+            "id": 589,
+            "en": "Escavalier",
+            "fr": "Lançargot",
+            "scoreGroup": "escavalier"
+          },
+          {
+            "id": 590,
+            "en": "Foongus",
+            "fr": "Trompignon",
+            "scoreGroup": "foongus"
+          },
+          {
+            "id": 591,
+            "en": "Amoonguss",
+            "fr": "Gaulet",
+            "scoreGroup": "amoonguss"
+          },
+          {
+            "id": 592,
+            "en": "Frillish",
+            "fr": "Viskuse",
+            "scoreGroup": "frillish"
+          },
+          {
+            "id": 593,
+            "en": "Jellicent",
+            "fr": "Moyade",
+            "scoreGroup": "jellicent"
+          },
+          {
+            "id": 594,
+            "en": "Alomomola",
+            "fr": "Mamanbo",
+            "scoreGroup": "alomomola"
+          },
+          {
+            "id": 595,
+            "en": "Joltik",
+            "fr": "Statitik",
+            "scoreGroup": "joltik"
+          },
+          {
+            "id": 596,
+            "en": "Galvantula",
+            "fr": "Mygavolt",
+            "scoreGroup": "galvantula"
+          },
+          {
+            "id": 597,
+            "en": "Ferroseed",
+            "fr": "Grindur",
+            "scoreGroup": "ferroseed"
+          },
+          {
+            "id": 598,
+            "en": "Ferrothorn",
+            "fr": "Noacier",
+            "scoreGroup": "ferrothorn"
+          },
+          {
+            "id": 599,
+            "en": "Klink",
+            "fr": "Tic",
+            "scoreGroup": "klink"
+          },
+          {
+            "id": 600,
+            "en": "Klang",
+            "fr": "Clic",
+            "scoreGroup": "klang"
+          },
+          {
+            "id": 601,
+            "en": "Klinklang",
+            "fr": "Cliticlic",
+            "scoreGroup": "klinklang"
+          },
+          {
+            "id": 602,
+            "en": "Tynamo",
+            "fr": "Anchwatt",
+            "scoreGroup": "tynamo"
+          },
+          {
+            "id": 603,
+            "en": "Eelektrik",
+            "fr": "Lampéroie",
+            "scoreGroup": "eelektrik"
+          },
+          {
+            "id": 604,
+            "en": "Eelektross",
+            "fr": "Ohmassacre",
+            "scoreGroup": "eelektross"
+          },
+          {
+            "id": 605,
+            "en": "Elgyem",
+            "fr": "Lewsor",
+            "scoreGroup": "elgyem"
+          },
+          {
+            "id": 606,
+            "en": "Beheeyem",
+            "fr": "Neitram",
+            "scoreGroup": "beheeyem"
+          },
+          {
+            "id": 607,
+            "en": "Litwick",
+            "fr": "Funécire",
+            "scoreGroup": "litwick"
+          },
+          {
+            "id": 608,
+            "en": "Lampent",
+            "fr": "Mélancolux",
+            "scoreGroup": "lampent"
+          },
+          {
+            "id": 609,
+            "en": "Chandelure",
+            "fr": "Lugulabre",
+            "scoreGroup": "chandelure"
+          },
+          {
+            "id": 610,
+            "en": "Axew",
+            "fr": "Coupenotte",
+            "scoreGroup": "axew"
+          },
+          {
+            "id": 611,
+            "en": "Fraxure",
+            "fr": "Incisache",
+            "scoreGroup": "fraxure"
+          },
+          {
+            "id": 612,
+            "en": "Haxorus",
+            "fr": "Tranchodon",
+            "scoreGroup": "haxorus"
+          },
+          {
+            "id": 613,
+            "en": "Cubchoo",
+            "fr": "Polarhume",
+            "scoreGroup": "cubchoo"
+          },
+          {
+            "id": 614,
+            "en": "Beartic",
+            "fr": "Polagriffe",
+            "scoreGroup": "beartic"
+          },
+          {
+            "id": 615,
+            "en": "Cryogonal",
+            "fr": "Hexagel",
+            "scoreGroup": "cryogonal"
+          },
+          {
+            "id": 616,
+            "en": "Shelmet",
+            "fr": "Escargaume",
+            "scoreGroup": "shelmet"
+          },
+          {
+            "id": 617,
+            "en": "Accelgor",
+            "fr": "Limaspeed",
+            "scoreGroup": "accelgor"
+          },
+          {
+            "id": 618,
+            "en": "Stunfisk",
+            "fr": "Limonde",
+            "scoreGroup": "stunfisk"
+          },
+          {
+            "id": 619,
+            "en": "Mienfoo",
+            "fr": "Kungfouine",
+            "scoreGroup": "mienfoo"
+          },
+          {
+            "id": 620,
+            "en": "Mienshao",
+            "fr": "Shaofouine",
+            "scoreGroup": "mienshao"
+          },
+          {
+            "id": 621,
+            "en": "Druddigon",
+            "fr": "Drakkarmin",
+            "scoreGroup": "druddigon"
+          },
+          {
+            "id": 622,
+            "en": "Golett",
+            "fr": "Gringolem",
+            "scoreGroup": "golett"
+          },
+          {
+            "id": 623,
+            "en": "Golurk",
+            "fr": "Golemastoc",
+            "scoreGroup": "golurk"
+          },
+          {
+            "id": 624,
+            "en": "Pawniard",
+            "fr": "Scalpion",
+            "scoreGroup": "pawniard"
+          },
+          {
+            "id": 625,
+            "en": "Bisharp",
+            "fr": "Scalproie",
+            "scoreGroup": "bisharp"
+          },
+          {
+            "id": 626,
+            "en": "Bouffalant",
+            "fr": "Frison",
+            "scoreGroup": "bouffalant"
+          },
+          {
+            "id": 627,
+            "en": "Rufflet",
+            "fr": "Furaiglon",
+            "scoreGroup": "rufflet"
+          },
+          {
+            "id": 628,
+            "en": "Braviary",
+            "fr": "Gueriaigle",
+            "scoreGroup": "braviary"
+          },
+          {
+            "id": 629,
+            "en": "Vullaby",
+            "fr": "Vostourno",
+            "scoreGroup": "vullaby"
+          },
+          {
+            "id": 630,
+            "en": "Mandibuzz",
+            "fr": "Vaututrice",
+            "scoreGroup": "mandibuzz"
+          },
+          {
+            "id": 631,
+            "en": "Heatmor",
+            "fr": "Aflamanoir",
+            "scoreGroup": "heatmor"
+          },
+          {
+            "id": 632,
+            "en": "Durant",
+            "fr": "Fermite",
+            "scoreGroup": "durant"
+          },
+          {
+            "id": 633,
+            "en": "Deino",
+            "fr": "Solochi",
+            "scoreGroup": "deino"
+          },
+          {
+            "id": 634,
+            "en": "Zweilous",
+            "fr": "Diamat",
+            "scoreGroup": "zweilous"
+          },
+          {
+            "id": 635,
+            "en": "Hydreigon",
+            "fr": "Trioxhydre",
+            "scoreGroup": "hydreigon"
+          },
+          {
+            "id": 636,
+            "en": "Larvesta",
+            "fr": "Pyronille",
+            "scoreGroup": "larvesta"
+          },
+          {
+            "id": 637,
+            "en": "Volcarona",
+            "fr": "Pyrax",
+            "scoreGroup": "volcarona"
+          },
+          {
+            "id": 638,
+            "en": "Cobalion",
+            "fr": "Cobaltium",
+            "scoreGroup": "cobalion"
+          },
+          {
+            "id": 639,
+            "en": "Terrakion",
+            "fr": "Terrakium",
+            "scoreGroup": "terrakion"
+          },
+          {
+            "id": 640,
+            "en": "Virizion",
+            "fr": "Viridium",
+            "scoreGroup": "virizion"
+          },
+          {
+            "id": 641,
+            "en": "Tornadus",
+            "fr": "Boréas",
+            "scoreGroup": "tornadus"
+          },
+          {
+            "id": 642,
+            "en": "Thundurus",
+            "fr": "Fulguris",
+            "scoreGroup": "thundurus"
+          },
+          {
+            "id": 643,
+            "en": "Reshiram",
+            "fr": "Reshiram",
+            "scoreGroup": "reshiram"
+          },
+          {
+            "id": 644,
+            "en": "Zekrom",
+            "fr": "Zekrom",
+            "scoreGroup": "zekrom"
+          },
+          {
+            "id": 645,
+            "en": "Landorus",
+            "fr": "Démétéros",
+            "scoreGroup": "landorus"
+          },
+          {
+            "id": 646,
+            "en": "Kyurem",
+            "fr": "Kyurem",
+            "scoreGroup": "kyurem"
+          },
+          {
+            "id": 647,
+            "en": "Keldeo",
+            "fr": "Keldeo",
+            "scoreGroup": "keldeo"
+          },
+          {
+            "id": 648,
+            "en": "Meloetta",
+            "fr": "Meloetta",
+            "scoreGroup": "meloetta"
+          },
+          {
+            "id": 649,
+            "en": "Genesect",
+            "fr": "Genesect",
+            "scoreGroup": "genesect"
+          }
+        ]
+      },
+      {
+        "key": "gen6",
+        "title": "Kalos",
+        "entries": [
+          {
+            "id": 650,
+            "en": "Chespin",
+            "fr": "Marisson",
+            "scoreGroup": "chespin"
+          },
+          {
+            "id": 651,
+            "en": "Quilladin",
+            "fr": "Boguérisse",
+            "scoreGroup": "quilladin"
+          },
+          {
+            "id": 652,
+            "en": "Chesnaught",
+            "fr": "Blindépique",
+            "scoreGroup": "chesnaught"
+          },
+          {
+            "id": 653,
+            "en": "Fennekin",
+            "fr": "Feunnec",
+            "scoreGroup": "fennekin"
+          },
+          {
+            "id": 654,
+            "en": "Braixen",
+            "fr": "Roussil",
+            "scoreGroup": "braixen"
+          },
+          {
+            "id": 655,
+            "en": "Delphox",
+            "fr": "Goupelin",
+            "scoreGroup": "delphox"
+          },
+          {
+            "id": 656,
+            "en": "Froakie",
+            "fr": "Grenousse",
+            "scoreGroup": "froakie"
+          },
+          {
+            "id": 657,
+            "en": "Frogadier",
+            "fr": "Croâporal",
+            "scoreGroup": "frogadier"
+          },
+          {
+            "id": 658,
+            "en": "Greninja",
+            "fr": "Amphinobi",
+            "scoreGroup": "greninja"
+          },
+          {
+            "id": 659,
+            "en": "Bunnelby",
+            "fr": "Sapereau",
+            "scoreGroup": "bunnelby"
+          },
+          {
+            "id": 660,
+            "en": "Diggersby",
+            "fr": "Excavarenne",
+            "scoreGroup": "diggersby"
+          },
+          {
+            "id": 661,
+            "en": "Fletchling",
+            "fr": "Passerouge",
+            "scoreGroup": "fletchling"
+          },
+          {
+            "id": 662,
+            "en": "Fletchinder",
+            "fr": "Braisillon",
+            "scoreGroup": "fletchinder"
+          },
+          {
+            "id": 663,
+            "en": "Talonflame",
+            "fr": "Flambusard",
+            "scoreGroup": "talonflame"
+          },
+          {
+            "id": 664,
+            "en": "Scatterbug",
+            "fr": "Lépidonille",
+            "scoreGroup": "scatterbug"
+          },
+          {
+            "id": 665,
+            "en": "Spewpa",
+            "fr": "Pérégrain",
+            "scoreGroup": "spewpa"
+          },
+          {
+            "id": 666,
+            "en": "Vivillon",
+            "fr": "Prismillon",
+            "scoreGroup": "vivillon"
+          },
+          {
+            "id": 667,
+            "en": "Litleo",
+            "fr": "Hélionceau",
+            "scoreGroup": "litleo"
+          },
+          {
+            "id": 668,
+            "en": "Pyroar",
+            "fr": "Némélios",
+            "scoreGroup": "pyroar"
+          },
+          {
+            "id": 669,
+            "en": "Flabébé",
+            "fr": "Flabébé",
+            "scoreGroup": "flabébé"
+          },
+          {
+            "id": 670,
+            "en": "Floette",
+            "fr": "Floette",
+            "scoreGroup": "floette"
+          },
+          {
+            "id": 671,
+            "en": "Florges",
+            "fr": "Florges",
+            "scoreGroup": "florges"
+          },
+          {
+            "id": 672,
+            "en": "Skiddo",
+            "fr": "Cabriolaine",
+            "scoreGroup": "skiddo"
+          },
+          {
+            "id": 673,
+            "en": "Gogoat",
+            "fr": "Chevroum",
+            "scoreGroup": "gogoat"
+          },
+          {
+            "id": 674,
+            "en": "Pancham",
+            "fr": "Pandespiègle",
+            "scoreGroup": "pancham"
+          },
+          {
+            "id": 675,
+            "en": "Pangoro",
+            "fr": "Pandarbare",
+            "scoreGroup": "pangoro"
+          },
+          {
+            "id": 676,
+            "en": "Furfrou",
+            "fr": "Couafarel",
+            "scoreGroup": "furfrou"
+          },
+          {
+            "id": 677,
+            "en": "Espurr",
+            "fr": "Psystigri",
+            "scoreGroup": "espurr"
+          },
+          {
+            "id": 678,
+            "en": "Meowstic",
+            "fr": "Mistigrix",
+            "scoreGroup": "meowstic"
+          },
+          {
+            "id": 679,
+            "en": "Honedge",
+            "fr": "Monorpale",
+            "scoreGroup": "honedge"
+          },
+          {
+            "id": 680,
+            "en": "Doublade",
+            "fr": "Dimoclès",
+            "scoreGroup": "doublade"
+          },
+          {
+            "id": 681,
+            "en": "Aegislash",
+            "fr": "Exagide",
+            "scoreGroup": "aegislash"
+          },
+          {
+            "id": 682,
+            "en": "Spritzee",
+            "fr": "Fluvetin",
+            "scoreGroup": "spritzee"
+          },
+          {
+            "id": 683,
+            "en": "Aromatisse",
+            "fr": "Cocotine",
+            "scoreGroup": "aromatisse"
+          },
+          {
+            "id": 684,
+            "en": "Swirlix",
+            "fr": "Sucroquin",
+            "scoreGroup": "swirlix"
+          },
+          {
+            "id": 685,
+            "en": "Slurpuff",
+            "fr": "Cupcanaille",
+            "scoreGroup": "slurpuff"
+          },
+          {
+            "id": 686,
+            "en": "Inkay",
+            "fr": "Sepiatop",
+            "scoreGroup": "inkay"
+          },
+          {
+            "id": 687,
+            "en": "Malamar",
+            "fr": "Sepiatroce",
+            "scoreGroup": "malamar"
+          },
+          {
+            "id": 688,
+            "en": "Binacle",
+            "fr": "Opermine",
+            "scoreGroup": "binacle"
+          },
+          {
+            "id": 689,
+            "en": "Barbaracle",
+            "fr": "Golgopathe",
+            "scoreGroup": "barbaracle"
+          },
+          {
+            "id": 690,
+            "en": "Skrelp",
+            "fr": "Venalgue",
+            "scoreGroup": "skrelp"
+          },
+          {
+            "id": 691,
+            "en": "Dragalge",
+            "fr": "Kravarech",
+            "scoreGroup": "dragalge"
+          },
+          {
+            "id": 692,
+            "en": "Clauncher",
+            "fr": "Flingouste",
+            "scoreGroup": "clauncher"
+          },
+          {
+            "id": 693,
+            "en": "Clawitzer",
+            "fr": "Gamblast",
+            "scoreGroup": "clawitzer"
+          },
+          {
+            "id": 694,
+            "en": "Helioptile",
+            "fr": "Galvaran",
+            "scoreGroup": "helioptile"
+          },
+          {
+            "id": 695,
+            "en": "Heliolisk",
+            "fr": "Iguolta",
+            "scoreGroup": "heliolisk"
+          },
+          {
+            "id": 696,
+            "en": "Tyrunt",
+            "fr": "Ptyranidur",
+            "scoreGroup": "tyrunt"
+          },
+          {
+            "id": 697,
+            "en": "Tyrantrum",
+            "fr": "Rexillius",
+            "scoreGroup": "tyrantrum"
+          },
+          {
+            "id": 698,
+            "en": "Amaura",
+            "fr": "Amagara",
+            "scoreGroup": "amaura"
+          },
+          {
+            "id": 699,
+            "en": "Aurorus",
+            "fr": "Dragmara",
+            "scoreGroup": "aurorus"
+          },
+          {
+            "id": 700,
+            "en": "Sylveon",
+            "fr": "Nymphali",
+            "scoreGroup": "sylveon", "types": ['fairy']
+          },
+          {
+            "id": 701,
+            "en": "Hawlucha",
+            "fr": "Brutalibré",
+            "scoreGroup": "hawlucha"
+          },
+          {
+            "id": 702,
+            "en": "Dedenne",
+            "fr": "Dedenne",
+            "scoreGroup": "dedenne"
+          },
+          {
+            "id": 703,
+            "en": "Carbink",
+            "fr": "Strassie",
+            "scoreGroup": "carbink"
+          },
+          {
+            "id": 704,
+            "en": "Goomy",
+            "fr": "Mucuscule",
+            "scoreGroup": "goomy"
+          },
+          {
+            "id": 705,
+            "en": "Sliggoo",
+            "fr": "Colimucus",
+            "scoreGroup": "sliggoo"
+          },
+          {
+            "id": 706,
+            "en": "Goodra",
+            "fr": "Muplodocus",
+            "scoreGroup": "goodra"
+          },
+          {
+            "id": 707,
+            "en": "Klefki",
+            "fr": "Trousselin",
+            "scoreGroup": "klefki"
+          },
+          {
+            "id": 708,
+            "en": "Phantump",
+            "fr": "Brocélôme",
+            "scoreGroup": "phantump"
+          },
+          {
+            "id": 709,
+            "en": "Trevenant",
+            "fr": "Desséliande",
+            "scoreGroup": "trevenant"
+          },
+          {
+            "id": 710,
+            "en": "Pumpkaboo",
+            "fr": "Pitrouille",
+            "scoreGroup": "pumpkaboo"
+          },
+          {
+            "id": 711,
+            "en": "Gourgeist",
+            "fr": "Banshitrouye",
+            "scoreGroup": "gourgeist"
+          },
+          {
+            "id": 712,
+            "en": "Bergmite",
+            "fr": "Grelaçon",
+            "scoreGroup": "bergmite"
+          },
+          {
+            "id": 713,
+            "en": "Avalugg",
+            "fr": "Séracrawl",
+            "scoreGroup": "avalugg"
+          },
+          {
+            "id": 714,
+            "en": "Noibat",
+            "fr": "Sonistrelle",
+            "scoreGroup": "noibat"
+          },
+          {
+            "id": 715,
+            "en": "Noivern",
+            "fr": "Bruyverne",
+            "scoreGroup": "noivern"
+          },
+          {
+            "id": 716,
+            "en": "Xerneas",
+            "fr": "Xerneas",
+            "scoreGroup": "xerneas"
+          },
+          {
+            "id": 717,
+            "en": "Yveltal",
+            "fr": "Yveltal",
+            "scoreGroup": "yveltal"
+          },
+          {
+            "id": 718,
+            "en": "Zygarde",
+            "fr": "Zygarde",
+            "scoreGroup": "zygarde"
+          },
+          {
+            "id": 719,
+            "en": "Diancie",
+            "fr": "Diancie",
+            "scoreGroup": "diancie"
+          },
+          {
+            "id": 720,
+            "en": "Hoopa",
+            "fr": "Hoopa",
+            "scoreGroup": "hoopa"
+          },
+          {
+            "id": 721,
+            "en": "Volcanion",
+            "fr": "Volcanion",
+            "scoreGroup": "volcanion"
+          }
+        ]
+      },
+      {
+        "key": "gen7",
+        "title": "Alola",
+        "entries": [
+          {
+            "id": 722,
+            "en": "Rowlet",
+            "fr": "Brindibou",
+            "scoreGroup": "rowlet"
+          },
+          {
+            "id": 723,
+            "en": "Dartrix",
+            "fr": "Efflèche",
+            "scoreGroup": "dartrix"
+          },
+          {
+            "id": 724,
+            "en": "Decidueye",
+            "fr": "Archéduc",
+            "scoreGroup": "decidueye"
+          },
+          {
+            "id": 725,
+            "en": "Litten",
+            "fr": "Flamiaou",
+            "scoreGroup": "litten"
+          },
+          {
+            "id": 726,
+            "en": "Torracat",
+            "fr": "Matoufeu",
+            "scoreGroup": "torracat"
+          },
+          {
+            "id": 727,
+            "en": "Incineroar",
+            "fr": "Félinferno",
+            "scoreGroup": "incineroar"
+          },
+          {
+            "id": 728,
+            "en": "Popplio",
+            "fr": "Otaquin",
+            "scoreGroup": "popplio"
+          },
+          {
+            "id": 729,
+            "en": "Brionne",
+            "fr": "Otarlette",
+            "scoreGroup": "brionne"
+          },
+          {
+            "id": 730,
+            "en": "Primarina",
+            "fr": "Oratoria",
+            "scoreGroup": "primarina"
+          },
+          {
+            "id": 731,
+            "en": "Pikipek",
+            "fr": "Picassaut",
+            "scoreGroup": "pikipek"
+          },
+          {
+            "id": 732,
+            "en": "Trumbeak",
+            "fr": "Piclairon",
+            "scoreGroup": "trumbeak"
+          },
+          {
+            "id": 733,
+            "en": "Toucannon",
+            "fr": "Bazoucan",
+            "scoreGroup": "toucannon"
+          },
+          {
+            "id": 734,
+            "en": "Yungoos",
+            "fr": "Manglouton",
+            "scoreGroup": "yungoos"
+          },
+          {
+            "id": 735,
+            "en": "Gumshoos",
+            "fr": "Argouste",
+            "scoreGroup": "gumshoos"
+          },
+          {
+            "id": 736,
+            "en": "Grubbin",
+            "fr": "Larvibule",
+            "scoreGroup": "grubbin"
+          },
+          {
+            "id": 737,
+            "en": "Charjabug",
+            "fr": "Chrysapile",
+            "scoreGroup": "charjabug"
+          },
+          {
+            "id": 738,
+            "en": "Vikavolt",
+            "fr": "Lucanon",
+            "scoreGroup": "vikavolt"
+          },
+          {
+            "id": 739,
+            "en": "Crabrawler",
+            "fr": "Crabagarre",
+            "scoreGroup": "crabrawler"
+          },
+          {
+            "id": 740,
+            "en": "Crabominable",
+            "fr": "Crabominable",
+            "scoreGroup": "crabominable"
+          },
+          {
+            "id": 741,
+            "en": "Oricorio",
+            "fr": "Plumeline",
+            "scoreGroup": "oricorio"
+          },
+          {
+            "id": 742,
+            "en": "Cutiefly",
+            "fr": "Bombydou",
+            "scoreGroup": "cutiefly"
+          },
+          {
+            "id": 743,
+            "en": "Ribombee",
+            "fr": "Rubombelle",
+            "scoreGroup": "ribombee"
+          },
+          {
+            "id": 744,
+            "en": "Rockruff",
+            "fr": "Rocabot",
+            "scoreGroup": "rockruff"
+          },
+          {
+            "id": 745,
+            "en": "Lycanroc",
+            "fr": "Lougaroc",
+            "scoreGroup": "lycanroc"
+          },
+          {
+            "id": 746,
+            "en": "Wishiwashi",
+            "fr": "Froussardine",
+            "scoreGroup": "wishiwashi"
+          },
+          {
+            "id": 747,
+            "en": "Mareanie",
+            "fr": "Vorastérie",
+            "scoreGroup": "mareanie"
+          },
+          {
+            "id": 748,
+            "en": "Toxapex",
+            "fr": "Prédastérie",
+            "scoreGroup": "toxapex"
+          },
+          {
+            "id": 749,
+            "en": "Mudbray",
+            "fr": "Tiboudet",
+            "scoreGroup": "mudbray"
+          },
+          {
+            "id": 750,
+            "en": "Mudsdale",
+            "fr": "Bourrinos",
+            "scoreGroup": "mudsdale"
+          },
+          {
+            "id": 751,
+            "en": "Dewpider",
+            "fr": "Araqua",
+            "scoreGroup": "dewpider"
+          },
+          {
+            "id": 752,
+            "en": "Araquanid",
+            "fr": "Tarenbulle",
+            "scoreGroup": "araquanid"
+          },
+          {
+            "id": 753,
+            "en": "Fomantis",
+            "fr": "Mimantis",
+            "scoreGroup": "fomantis"
+          },
+          {
+            "id": 754,
+            "en": "Lurantis",
+            "fr": "Floramantis",
+            "scoreGroup": "lurantis"
+          },
+          {
+            "id": 755,
+            "en": "Morelull",
+            "fr": "Spododo",
+            "scoreGroup": "morelull"
+          },
+          {
+            "id": 756,
+            "en": "Shiinotic",
+            "fr": "Lampignon",
+            "scoreGroup": "shiinotic"
+          },
+          {
+            "id": 757,
+            "en": "Salandit",
+            "fr": "Tritox",
+            "scoreGroup": "salandit"
+          },
+          {
+            "id": 758,
+            "en": "Salazzle",
+            "fr": "Malamandre",
+            "scoreGroup": "salazzle"
+          },
+          {
+            "id": 759,
+            "en": "Stufful",
+            "fr": "Nounourson",
+            "scoreGroup": "stufful"
+          },
+          {
+            "id": 760,
+            "en": "Bewear",
+            "fr": "Chelours",
+            "scoreGroup": "bewear"
+          },
+          {
+            "id": 761,
+            "en": "Bounsweet",
+            "fr": "Croquine",
+            "scoreGroup": "bounsweet"
+          },
+          {
+            "id": 762,
+            "en": "Steenee",
+            "fr": "Candine",
+            "scoreGroup": "steenee"
+          },
+          {
+            "id": 763,
+            "en": "Tsareena",
+            "fr": "Sucreine",
+            "scoreGroup": "tsareena"
+          },
+          {
+            "id": 764,
+            "en": "Comfey",
+            "fr": "Guérilande",
+            "scoreGroup": "comfey"
+          },
+          {
+            "id": 765,
+            "en": "Oranguru",
+            "fr": "Gouroutan",
+            "scoreGroup": "oranguru"
+          },
+          {
+            "id": 766,
+            "en": "Passimian",
+            "fr": "Quartermac",
+            "scoreGroup": "passimian"
+          },
+          {
+            "id": 767,
+            "en": "Wimpod",
+            "fr": "Sovkipou",
+            "scoreGroup": "wimpod"
+          },
+          {
+            "id": 768,
+            "en": "Golisopod",
+            "fr": "Sarmuraï",
+            "scoreGroup": "golisopod"
+          },
+          {
+            "id": 769,
+            "en": "Sandygast",
+            "fr": "Bacabouh",
+            "scoreGroup": "sandygast"
+          },
+          {
+            "id": 770,
+            "en": "Palossand",
+            "fr": "Trépassable",
+            "scoreGroup": "palossand"
+          },
+          {
+            "id": 771,
+            "en": "Pyukumuku",
+            "fr": "Concombaffe",
+            "scoreGroup": "pyukumuku"
+          },
+          {
+            "id": 772,
+            "en": "Type: Null",
+            "fr": "Type:0",
+            "scoreGroup": "type:-null"
+          },
+          {
+            "id": 773,
+            "en": "Silvally",
+            "fr": "Silvallié",
+            "scoreGroup": "silvally"
+          },
+          {
+            "id": 774,
+            "en": "Minior",
+            "fr": "Météno",
+            "scoreGroup": "minior"
+          },
+          {
+            "id": 775,
+            "en": "Komala",
+            "fr": "Dodoala",
+            "scoreGroup": "komala"
+          },
+          {
+            "id": 776,
+            "en": "Turtonator",
+            "fr": "Boumata",
+            "scoreGroup": "turtonator"
+          },
+          {
+            "id": 777,
+            "en": "Togedemaru",
+            "fr": "Togedemaru",
+            "scoreGroup": "togedemaru"
+          },
+          {
+            "id": 778,
+            "en": "Mimikyu",
+            "fr": "Mimiqui",
+            "scoreGroup": "mimikyu"
+          },
+          {
+            "id": 779,
+            "en": "Bruxish",
+            "fr": "Denticrisse",
+            "scoreGroup": "bruxish"
+          },
+          {
+            "id": 780,
+            "en": "Drampa",
+            "fr": "Draïeul",
+            "scoreGroup": "drampa"
+          },
+          {
+            "id": 781,
+            "en": "Dhelmise",
+            "fr": "Sinistrail",
+            "scoreGroup": "dhelmise"
+          },
+          {
+            "id": 782,
+            "en": "Jangmo-o",
+            "fr": "Bébécaille",
+            "scoreGroup": "jangmo-o"
+          },
+          {
+            "id": 783,
+            "en": "Hakamo-o",
+            "fr": "Écaïd",
+            "scoreGroup": "hakamo-o"
+          },
+          {
+            "id": 784,
+            "en": "Kommo-o",
+            "fr": "Ékaïser",
+            "scoreGroup": "kommo-o"
+          },
+          {
+            "id": 785,
+            "en": "Tapu Koko",
+            "fr": "Tokorico",
+            "scoreGroup": "tapu-koko"
+          },
+          {
+            "id": 786,
+            "en": "Tapu Lele",
+            "fr": "Tokopiyon",
+            "scoreGroup": "tapu-lele"
+          },
+          {
+            "id": 787,
+            "en": "Tapu Bulu",
+            "fr": "Tokotoro",
+            "scoreGroup": "tapu-bulu"
+          },
+          {
+            "id": 788,
+            "en": "Tapu Fini",
+            "fr": "Tokopisco",
+            "scoreGroup": "tapu-fini"
+          },
+          {
+            "id": 789,
+            "en": "Cosmog",
+            "fr": "Cosmog",
+            "scoreGroup": "cosmog"
+          },
+          {
+            "id": 790,
+            "en": "Cosmoem",
+            "fr": "Cosmovum",
+            "scoreGroup": "cosmoem"
+          },
+          {
+            "id": 791,
+            "en": "Solgaleo",
+            "fr": "Solgaleo",
+            "scoreGroup": "solgaleo"
+          },
+          {
+            "id": 792,
+            "en": "Lunala",
+            "fr": "Lunala",
+            "scoreGroup": "lunala"
+          },
+          {
+            "id": 793,
+            "en": "Nihilego",
+            "fr": "Zéroïd",
+            "scoreGroup": "nihilego"
+          },
+          {
+            "id": 794,
+            "en": "Buzzwole",
+            "fr": "Mouscoto",
+            "scoreGroup": "buzzwole"
+          },
+          {
+            "id": 795,
+            "en": "Pheromosa",
+            "fr": "Cancrelove",
+            "scoreGroup": "pheromosa"
+          },
+          {
+            "id": 796,
+            "en": "Xurkitree",
+            "fr": "Câblifère",
+            "scoreGroup": "xurkitree"
+          },
+          {
+            "id": 797,
+            "en": "Celesteela",
+            "fr": "Bamboiselle",
+            "scoreGroup": "celesteela"
+          },
+          {
+            "id": 798,
+            "en": "Kartana",
+            "fr": "Katagami",
+            "scoreGroup": "kartana"
+          },
+          {
+            "id": 799,
+            "en": "Guzzlord",
+            "fr": "Engloutyran",
+            "scoreGroup": "guzzlord"
+          },
+          {
+            "id": 800,
+            "en": "Necrozma",
+            "fr": "Necrozma",
+            "scoreGroup": "necrozma"
+          },
+          {
+            "id": 801,
+            "en": "Magearna",
+            "fr": "Magearna",
+            "scoreGroup": "magearna"
+          },
+          {
+            "id": 802,
+            "en": "Marshadow",
+            "fr": "Marshadow",
+            "scoreGroup": "marshadow"
+          },
+          {
+            "id": 803,
+            "en": "Poipole",
+            "fr": "Vémini",
+            "scoreGroup": "poipole"
+          },
+          {
+            "id": 804,
+            "en": "Naganadel",
+            "fr": "Mandrillon",
+            "scoreGroup": "naganadel"
+          },
+          {
+            "id": 805,
+            "en": "Stakataka",
+            "fr": "Ama-Ama",
+            "scoreGroup": "stakataka"
+          },
+          {
+            "id": 806,
+            "en": "Blacephalon",
+            "fr": "Pierroteknik",
+            "scoreGroup": "blacephalon"
+          },
+          {
+            "id": 807,
+            "en": "Zeraora",
+            "fr": "Zeraora",
+            "scoreGroup": "zeraora"
+          },
+          {
+            "id": 808,
+            "en": "Meltan",
+            "fr": "Meltan",
+            "scoreGroup": "meltan"
+          },
+          {
+            "id": 809,
+            "en": "Melmetal",
+            "fr": "Melmetal",
+            "scoreGroup": "melmetal"
+          }
+        ]
+      },
+      {
+        "key": "gen8",
+        "title": "Galar",
+        "entries": [
+          {
+            "id": 810,
+            "en": "Grookey",
+            "fr": "Ouistempo",
+            "scoreGroup": "grookey"
+          },
+          {
+            "id": 811,
+            "en": "Thwackey",
+            "fr": "Badabouin",
+            "scoreGroup": "thwackey"
+          },
+          {
+            "id": 812,
+            "en": "Rillaboom",
+            "fr": "Gorythmic",
+            "scoreGroup": "rillaboom"
+          },
+          {
+            "id": 813,
+            "en": "Scorbunny",
+            "fr": "Flambino",
+            "scoreGroup": "scorbunny"
+          },
+          {
+            "id": 814,
+            "en": "Raboot",
+            "fr": "Lapyro",
+            "scoreGroup": "raboot"
+          },
+          {
+            "id": 815,
+            "en": "Cinderace",
+            "fr": "Pyrobut",
+            "scoreGroup": "cinderace"
+          },
+          {
+            "id": 816,
+            "en": "Sobble",
+            "fr": "Larméléon",
+            "scoreGroup": "sobble"
+          },
+          {
+            "id": 817,
+            "en": "Drizzile",
+            "fr": "Arrozard",
+            "scoreGroup": "drizzile"
+          },
+          {
+            "id": 818,
+            "en": "Inteleon",
+            "fr": "Lézargus",
+            "scoreGroup": "inteleon"
+          },
+          {
+            "id": 819,
+            "en": "Skwovet",
+            "fr": "Rongourmand",
+            "scoreGroup": "skwovet"
+          },
+          {
+            "id": 820,
+            "en": "Greedent",
+            "fr": "Rongrigou",
+            "scoreGroup": "greedent"
+          },
+          {
+            "id": 821,
+            "en": "Rookidee",
+            "fr": "Minisange",
+            "scoreGroup": "rookidee"
+          },
+          {
+            "id": 822,
+            "en": "Corvisquire",
+            "fr": "Bleuseille",
+            "scoreGroup": "corvisquire"
+          },
+          {
+            "id": 823,
+            "en": "Corviknight",
+            "fr": "Corvaillus",
+            "scoreGroup": "corviknight"
+          },
+          {
+            "id": 824,
+            "en": "Blipbug",
+            "fr": "Larvadar",
+            "scoreGroup": "blipbug"
+          },
+          {
+            "id": 825,
+            "en": "Dottler",
+            "fr": "Coléodôme",
+            "scoreGroup": "dottler"
+          },
+          {
+            "id": 826,
+            "en": "Orbeetle",
+            "fr": "Astronelle",
+            "scoreGroup": "orbeetle"
+          },
+          {
+            "id": 827,
+            "en": "Nickit",
+            "fr": "Goupilou",
+            "scoreGroup": "nickit"
+          },
+          {
+            "id": 828,
+            "en": "Thievul",
+            "fr": "Roublenard",
+            "scoreGroup": "thievul"
+          },
+          {
+            "id": 829,
+            "en": "Gossifleur",
+            "fr": "Tournicoton",
+            "scoreGroup": "gossifleur"
+          },
+          {
+            "id": 830,
+            "en": "Eldegoss",
+            "fr": "Blancoton",
+            "scoreGroup": "eldegoss"
+          },
+          {
+            "id": 831,
+            "en": "Wooloo",
+            "fr": "Moumouton",
+            "scoreGroup": "wooloo"
+          },
+          {
+            "id": 832,
+            "en": "Dubwool",
+            "fr": "Moumouflon",
+            "scoreGroup": "dubwool"
+          },
+          {
+            "id": 833,
+            "en": "Chewtle",
+            "fr": "Khélocrok",
+            "scoreGroup": "chewtle"
+          },
+          {
+            "id": 834,
+            "en": "Drednaw",
+            "fr": "Torgamord",
+            "scoreGroup": "drednaw"
+          },
+          {
+            "id": 835,
+            "en": "Yamper",
+            "fr": "Voltoutou",
+            "scoreGroup": "yamper"
+          },
+          {
+            "id": 836,
+            "en": "Boltund",
+            "fr": "Fulgudog",
+            "scoreGroup": "boltund"
+          },
+          {
+            "id": 837,
+            "en": "Rolycoly",
+            "fr": "Charbi",
+            "scoreGroup": "rolycoly"
+          },
+          {
+            "id": 838,
+            "en": "Carkol",
+            "fr": "Wagomine",
+            "scoreGroup": "carkol"
+          },
+          {
+            "id": 839,
+            "en": "Coalossal",
+            "fr": "Monthracite",
+            "scoreGroup": "coalossal"
+          },
+          {
+            "id": 840,
+            "en": "Applin",
+            "fr": "Verpom",
+            "scoreGroup": "applin"
+          },
+          {
+            "id": 841,
+            "en": "Flapple",
+            "fr": "Pomdrapi",
+            "scoreGroup": "flapple"
+          },
+          {
+            "id": 842,
+            "en": "Appletun",
+            "fr": "Dratatin",
+            "scoreGroup": "appletun"
+          },
+          {
+            "id": 843,
+            "en": "Silicobra",
+            "fr": "Dunaja",
+            "scoreGroup": "silicobra"
+          },
+          {
+            "id": 844,
+            "en": "Sandaconda",
+            "fr": "Dunaconda",
+            "scoreGroup": "sandaconda"
+          },
+          {
+            "id": 845,
+            "en": "Cramorant",
+            "fr": "Nigosier",
+            "scoreGroup": "cramorant"
+          },
+          {
+            "id": 846,
+            "en": "Arrokuda",
+            "fr": "Embrochet",
+            "scoreGroup": "arrokuda"
+          },
+          {
+            "id": 847,
+            "en": "Barraskewda",
+            "fr": "Hastacuda",
+            "scoreGroup": "barraskewda"
+          },
+          {
+            "id": 848,
+            "en": "Toxel",
+            "fr": "Toxizap",
+            "scoreGroup": "toxel"
+          },
+          {
+            "id": 849,
+            "en": "Toxtricity",
+            "fr": "Salarsen",
+            "scoreGroup": "toxtricity"
+          },
+          {
+            "id": 850,
+            "en": "Sizzlipede",
+            "fr": "Grillepattes",
+            "scoreGroup": "sizzlipede"
+          },
+          {
+            "id": 851,
+            "en": "Centiskorch",
+            "fr": "Scolocendre",
+            "scoreGroup": "centiskorch"
+          },
+          {
+            "id": 852,
+            "en": "Clobbopus",
+            "fr": "Poulpaf",
+            "scoreGroup": "clobbopus"
+          },
+          {
+            "id": 853,
+            "en": "Grapploct",
+            "fr": "Krakos",
+            "scoreGroup": "grapploct"
+          },
+          {
+            "id": 854,
+            "en": "Sinistea",
+            "fr": "Théffroi",
+            "scoreGroup": "sinistea"
+          },
+          {
+            "id": 855,
+            "en": "Polteageist",
+            "fr": "Polthégeist",
+            "scoreGroup": "polteageist"
+          },
+          {
+            "id": 856,
+            "en": "Hatenna",
+            "fr": "Bibichut",
+            "scoreGroup": "hatenna"
+          },
+          {
+            "id": 857,
+            "en": "Hattrem",
+            "fr": "Chapotus",
+            "scoreGroup": "hattrem"
+          },
+          {
+            "id": 858,
+            "en": "Hatterene",
+            "fr": "Sorcilence",
+            "scoreGroup": "hatterene"
+          },
+          {
+            "id": 859,
+            "en": "Impidimp",
+            "fr": "Grimalin",
+            "scoreGroup": "impidimp"
+          },
+          {
+            "id": 860,
+            "en": "Morgrem",
+            "fr": "Fourbelin",
+            "scoreGroup": "morgrem"
+          },
+          {
+            "id": 861,
+            "en": "Grimmsnarl",
+            "fr": "Angoliath",
+            "scoreGroup": "grimmsnarl"
+          },
+          {
+            "id": 862,
+            "en": "Obstagoon",
+            "fr": "Ixon",
+            "scoreGroup": "obstagoon"
+          },
+          {
+            "id": 863,
+            "en": "Perrserker",
+            "fr": "Berserkatt",
+            "scoreGroup": "perrserker"
+          },
+          {
+            "id": 864,
+            "en": "Cursola",
+            "fr": "Corayôme",
+            "scoreGroup": "cursola"
+          },
+          {
+            "id": 865,
+            "en": "Sirfetch’d",
+            "fr": "Palarticho",
+            "scoreGroup": "sirfetch’d"
+          },
+          {
+            "id": 866,
+            "en": "Mr. Rime",
+            "fr": "M. Glaquette",
+            "scoreGroup": "mr.-rime"
+          },
+          {
+            "id": 867,
+            "en": "Runerigus",
+            "fr": "Tutétékri",
+            "scoreGroup": "runerigus"
+          },
+          {
+            "id": 868,
+            "en": "Milcery",
+            "fr": "Crèmy",
+            "scoreGroup": "milcery"
+          },
+          {
+            "id": 869,
+            "en": "Alcremie",
+            "fr": "Charmilly",
+            "scoreGroup": "alcremie"
+          },
+          {
+            "id": 870,
+            "en": "Falinks",
+            "fr": "Hexadron",
+            "scoreGroup": "falinks"
+          },
+          {
+            "id": 871,
+            "en": "Pincurchin",
+            "fr": "Wattapik",
+            "scoreGroup": "pincurchin"
+          },
+          {
+            "id": 872,
+            "en": "Snom",
+            "fr": "Frissonille",
+            "scoreGroup": "snom"
+          },
+          {
+            "id": 873,
+            "en": "Frosmoth",
+            "fr": "Beldeneige",
+            "scoreGroup": "frosmoth"
+          },
+          {
+            "id": 874,
+            "en": "Stonjourner",
+            "fr": "Dolman",
+            "scoreGroup": "stonjourner"
+          },
+          {
+            "id": 875,
+            "en": "Eiscue",
+            "fr": "Bekaglaçon",
+            "scoreGroup": "eiscue"
+          },
+          {
+            "id": 876,
+            "en": "Indeedee",
+            "fr": "Wimessir",
+            "scoreGroup": "indeedee"
+          },
+          {
+            "id": 877,
+            "en": "Morpeko",
+            "fr": "Morpeko",
+            "scoreGroup": "morpeko"
+          },
+          {
+            "id": 878,
+            "en": "Cufant",
+            "fr": "Charibari",
+            "scoreGroup": "cufant"
+          },
+          {
+            "id": 879,
+            "en": "Copperajah",
+            "fr": "Pachyradjah",
+            "scoreGroup": "copperajah"
+          },
+          {
+            "id": 880,
+            "en": "Dracozolt",
+            "fr": "Galvagon",
+            "scoreGroup": "dracozolt"
+          },
+          {
+            "id": 881,
+            "en": "Arctozolt",
+            "fr": "Galvagla",
+            "scoreGroup": "arctozolt"
+          },
+          {
+            "id": 882,
+            "en": "Dracovish",
+            "fr": "Hydragon",
+            "scoreGroup": "dracovish"
+          },
+          {
+            "id": 883,
+            "en": "Arctovish",
+            "fr": "Hydragla",
+            "scoreGroup": "arctovish"
+          },
+          {
+            "id": 884,
+            "en": "Duraludon",
+            "fr": "Duralugon",
+            "scoreGroup": "duraludon"
+          },
+          {
+            "id": 885,
+            "en": "Dreepy",
+            "fr": "Fantyrm",
+            "scoreGroup": "dreepy"
+          },
+          {
+            "id": 886,
+            "en": "Drakloak",
+            "fr": "Dispareptil",
+            "scoreGroup": "drakloak"
+          },
+          {
+            "id": 887,
+            "en": "Dragapult",
+            "fr": "Lanssorien",
+            "scoreGroup": "dragapult"
+          },
+          {
+            "id": 888,
+            "en": "Zacian",
+            "fr": "Zacian",
+            "scoreGroup": "zacian"
+          },
+          {
+            "id": 889,
+            "en": "Zamazenta",
+            "fr": "Zamazenta",
+            "scoreGroup": "zamazenta"
+          },
+          {
+            "id": 890,
+            "en": "Eternatus",
+            "fr": "Éthernatos",
+            "scoreGroup": "eternatus"
+          },
+          {
+            "id": 891,
+            "en": "Kubfu",
+            "fr": "Wushours",
+            "scoreGroup": "kubfu"
+          },
+          {
+            "id": 892,
+            "en": "Urshifu",
+            "fr": "Shifours",
+            "scoreGroup": "urshifu"
+          },
+          {
+            "id": 893,
+            "en": "Zarude",
+            "fr": "Zarude",
+            "scoreGroup": "zarude"
+          },
+          {
+            "id": 894,
+            "en": "Regieleki",
+            "fr": "Regieleki",
+            "scoreGroup": "regieleki"
+          },
+          {
+            "id": 895,
+            "en": "Regidrago",
+            "fr": "Regidrago",
+            "scoreGroup": "regidrago"
+          },
+          {
+            "id": 896,
+            "en": "Glastrier",
+            "fr": "Blizzeval",
+            "scoreGroup": "glastrier"
+          },
+          {
+            "id": 897,
+            "en": "Spectrier",
+            "fr": "Spectreval",
+            "scoreGroup": "spectrier"
+          },
+          {
+            "id": 898,
+            "en": "Calyrex",
+            "fr": "Sylveroy",
+            "scoreGroup": "calyrex"
+          },
+          {
+            "id": 899,
+            "en": "Wyrdeer",
+            "fr": "Cerbyllin",
+            "scoreGroup": "wyrdeer"
+          },
+          {
+            "id": 900,
+            "en": "Kleavor",
+            "fr": "Hachécateur",
+            "scoreGroup": "kleavor"
+          },
+          {
+            "id": 901,
+            "en": "Ursaluna",
+            "fr": "Ursaking",
+            "scoreGroup": "ursaluna"
+          },
+          {
+            "id": 902,
+            "en": "Basculegion",
+            "fr": "Paragruel",
+            "scoreGroup": "basculegion"
+          },
+          {
+            "id": 903,
+            "en": "Sneasler",
+            "fr": "Farfurex",
+            "scoreGroup": "sneasler"
+          },
+          {
+            "id": 904,
+            "en": "Overqwil",
+            "fr": "Qwilpik",
+            "scoreGroup": "overqwil"
+          },
+          {
+            "id": 905,
+            "en": "Enamorus",
+            "fr": "Amovénus",
+            "scoreGroup": "enamorus"
+          }
+        ]
+      },
+      {
+        "key": "gen9",
+        "title": "Paldea",
+        "entries": [
+          {
+            "id": 906,
+            "en": "Sprigatito",
+            "fr": "Poussacha",
+            "scoreGroup": "sprigatito"
+          },
+          {
+            "id": 907,
+            "en": "Floragato",
+            "fr": "Matourgeon",
+            "scoreGroup": "floragato"
+          },
+          {
+            "id": 908,
+            "en": "Meowscarada",
+            "fr": "Miascarade",
+            "scoreGroup": "meowscarada"
+          },
+          {
+            "id": 909,
+            "en": "Fuecoco",
+            "fr": "Chochodile",
+            "scoreGroup": "fuecoco"
+          },
+          {
+            "id": 910,
+            "en": "Crocalor",
+            "fr": "Crocogril",
+            "scoreGroup": "crocalor"
+          },
+          {
+            "id": 911,
+            "en": "Skeledirge",
+            "fr": "Flâmigator",
+            "scoreGroup": "skeledirge"
+          },
+          {
+            "id": 912,
+            "en": "Quaxly",
+            "fr": "Coiffeton",
+            "scoreGroup": "quaxly"
+          },
+          {
+            "id": 913,
+            "en": "Quaxwell",
+            "fr": "Canarbello",
+            "scoreGroup": "quaxwell"
+          },
+          {
+            "id": 914,
+            "en": "Quaquaval",
+            "fr": "Palmaval",
+            "scoreGroup": "quaquaval"
+          },
+          {
+            "id": 915,
+            "en": "Lechonk",
+            "fr": "Gourmelet",
+            "scoreGroup": "lechonk"
+          },
+          {
+            "id": 916,
+            "en": "Oinkologne",
+            "fr": "Fragroin",
+            "scoreGroup": "oinkologne"
+          },
+          {
+            "id": 917,
+            "en": "Tarountula",
+            "fr": "Tissenboule",
+            "scoreGroup": "tarountula"
+          },
+          {
+            "id": 918,
+            "en": "Spidops",
+            "fr": "Filentrappe",
+            "scoreGroup": "spidops"
+          },
+          {
+            "id": 919,
+            "en": "Nymble",
+            "fr": "Lilliterelle",
+            "scoreGroup": "nymble"
+          },
+          {
+            "id": 920,
+            "en": "Lokix",
+            "fr": "Gambex",
+            "scoreGroup": "lokix"
+          },
+          {
+            "id": 921,
+            "en": "Pawmi",
+            "fr": "Pohm",
+            "scoreGroup": "pawmi"
+          },
+          {
+            "id": 922,
+            "en": "Pawmo",
+            "fr": "Pohmotte",
+            "scoreGroup": "pawmo"
+          },
+          {
+            "id": 923,
+            "en": "Pawmot",
+            "fr": "Pohmarmotte",
+            "scoreGroup": "pawmot"
+          },
+          {
+            "id": 924,
+            "en": "Tandemaus",
+            "fr": "Compagnol",
+            "scoreGroup": "tandemaus"
+          },
+          {
+            "id": 925,
+            "en": "Maushold",
+            "fr": "Famignol",
+            "scoreGroup": "maushold"
+          },
+          {
+            "id": 926,
+            "en": "Fidough",
+            "fr": "Pâtachiot",
+            "scoreGroup": "fidough"
+          },
+          {
+            "id": 927,
+            "en": "Dachsbun",
+            "fr": "Briochien",
+            "scoreGroup": "dachsbun"
+          },
+          {
+            "id": 928,
+            "en": "Smoliv",
+            "fr": "Olivini",
+            "scoreGroup": "smoliv"
+          },
+          {
+            "id": 929,
+            "en": "Dolliv",
+            "fr": "Olivado",
+            "scoreGroup": "dolliv"
+          },
+          {
+            "id": 930,
+            "en": "Arboliva",
+            "fr": "Arboliva",
+            "scoreGroup": "arboliva"
+          },
+          {
+            "id": 931,
+            "en": "Squawkabilly",
+            "fr": "Tapatoès",
+            "scoreGroup": "squawkabilly"
+          },
+          {
+            "id": 932,
+            "en": "Nacli",
+            "fr": "Selutin",
+            "scoreGroup": "nacli"
+          },
+          {
+            "id": 933,
+            "en": "Naclstack",
+            "fr": "Amassel",
+            "scoreGroup": "naclstack"
+          },
+          {
+            "id": 934,
+            "en": "Garganacl",
+            "fr": "Gigansel",
+            "scoreGroup": "garganacl"
+          },
+          {
+            "id": 935,
+            "en": "Charcadet",
+            "fr": "Charbambin",
+            "scoreGroup": "charcadet"
+          },
+          {
+            "id": 936,
+            "en": "Armarouge",
+            "fr": "Carmadura",
+            "scoreGroup": "armarouge"
+          },
+          {
+            "id": 937,
+            "en": "Ceruledge",
+            "fr": "Malvalame",
+            "scoreGroup": "ceruledge"
+          },
+          {
+            "id": 938,
+            "en": "Tadbulb",
+            "fr": "Têtampoule",
+            "scoreGroup": "tadbulb"
+          },
+          {
+            "id": 939,
+            "en": "Bellibolt",
+            "fr": "Ampibidou",
+            "scoreGroup": "bellibolt"
+          },
+          {
+            "id": 940,
+            "en": "Wattrel",
+            "fr": "Zapétrel",
+            "scoreGroup": "wattrel"
+          },
+          {
+            "id": 941,
+            "en": "Kilowattrel",
+            "fr": "Fulgulairo",
+            "scoreGroup": "kilowattrel"
+          },
+          {
+            "id": 942,
+            "en": "Maschiff",
+            "fr": "Grondogue",
+            "scoreGroup": "maschiff"
+          },
+          {
+            "id": 943,
+            "en": "Mabosstiff",
+            "fr": "Dogrino",
+            "scoreGroup": "mabosstiff"
+          },
+          {
+            "id": 944,
+            "en": "Shroodle",
+            "fr": "Gribouraigne",
+            "scoreGroup": "shroodle"
+          },
+          {
+            "id": 945,
+            "en": "Grafaiai",
+            "fr": "Tag-Tag",
+            "scoreGroup": "grafaiai"
+          },
+          {
+            "id": 946,
+            "en": "Bramblin",
+            "fr": "Virovent",
+            "scoreGroup": "bramblin"
+          },
+          {
+            "id": 947,
+            "en": "Brambleghast",
+            "fr": "Virevorreur",
+            "scoreGroup": "brambleghast"
+          },
+          {
+            "id": 948,
+            "en": "Toedscool",
+            "fr": "Terracool",
+            "scoreGroup": "toedscool"
+          },
+          {
+            "id": 949,
+            "en": "Toedscruel",
+            "fr": "Terracruel",
+            "scoreGroup": "toedscruel"
+          },
+          {
+            "id": 950,
+            "en": "Klawf",
+            "fr": "Craparoi",
+            "scoreGroup": "klawf"
+          },
+          {
+            "id": 951,
+            "en": "Capsakid",
+            "fr": "Pimito",
+            "scoreGroup": "capsakid"
+          },
+          {
+            "id": 952,
+            "en": "Scovillain",
+            "fr": "Scovilain",
+            "scoreGroup": "scovillain"
+          },
+          {
+            "id": 953,
+            "en": "Rellor",
+            "fr": "Léboulérou",
+            "scoreGroup": "rellor"
+          },
+          {
+            "id": 954,
+            "en": "Rabsca",
+            "fr": "Bérasca",
+            "scoreGroup": "rabsca"
+          },
+          {
+            "id": 955,
+            "en": "Flittle",
+            "fr": "Flotillon",
+            "scoreGroup": "flittle"
+          },
+          {
+            "id": 956,
+            "en": "Espathra",
+            "fr": "Cléopsytra",
+            "scoreGroup": "espathra"
+          },
+          {
+            "id": 957,
+            "en": "Tinkatink",
+            "fr": "Forgerette",
+            "scoreGroup": "tinkatink"
+          },
+          {
+            "id": 958,
+            "en": "Tinkatuff",
+            "fr": "Forgella",
+            "scoreGroup": "tinkatuff"
+          },
+          {
+            "id": 959,
+            "en": "Tinkaton",
+            "fr": "Forgelina",
+            "scoreGroup": "tinkaton"
+          },
+          {
+            "id": 960,
+            "en": "Wiglett",
+            "fr": "Taupikeau",
+            "scoreGroup": "wiglett"
+          },
+          {
+            "id": 961,
+            "en": "Wugtrio",
+            "fr": "Triopikeau",
+            "scoreGroup": "wugtrio"
+          },
+          {
+            "id": 962,
+            "en": "Bombirdier",
+            "fr": "Lestombaile",
+            "scoreGroup": "bombirdier"
+          },
+          {
+            "id": 963,
+            "en": "Finizen",
+            "fr": "Dofin",
+            "scoreGroup": "finizen"
+          },
+          {
+            "id": 964,
+            "en": "Palafin",
+            "fr": "Superdofin",
+            "scoreGroup": "palafin"
+          },
+          {
+            "id": 965,
+            "en": "Varoom",
+            "fr": "Vrombi",
+            "scoreGroup": "varoom"
+          },
+          {
+            "id": 966,
+            "en": "Revavroom",
+            "fr": "Vrombotor",
+            "scoreGroup": "revavroom"
+          },
+          {
+            "id": 967,
+            "en": "Cyclizar",
+            "fr": "Motorizard",
+            "scoreGroup": "cyclizar"
+          },
+          {
+            "id": 968,
+            "en": "Orthworm",
+            "fr": "Ferdeter",
+            "scoreGroup": "orthworm"
+          },
+          {
+            "id": 969,
+            "en": "Glimmet",
+            "fr": "Germéclat",
+            "scoreGroup": "glimmet"
+          },
+          {
+            "id": 970,
+            "en": "Glimmora",
+            "fr": "Floréclat",
+            "scoreGroup": "glimmora"
+          },
+          {
+            "id": 971,
+            "en": "Greavard",
+            "fr": "Toutombe",
+            "scoreGroup": "greavard"
+          },
+          {
+            "id": 972,
+            "en": "Houndstone",
+            "fr": "Tomberro",
+            "scoreGroup": "houndstone"
+          },
+          {
+            "id": 973,
+            "en": "Flamigo",
+            "fr": "Flamenroule",
+            "scoreGroup": "flamigo"
+          },
+          {
+            "id": 974,
+            "en": "Cetoddle",
+            "fr": "Piétacé",
+            "scoreGroup": "cetoddle"
+          },
+          {
+            "id": 975,
+            "en": "Cetitan",
+            "fr": "Balbalèze",
+            "scoreGroup": "cetitan"
+          },
+          {
+            "id": 976,
+            "en": "Veluza",
+            "fr": "Délestin",
+            "scoreGroup": "veluza"
+          },
+          {
+            "id": 977,
+            "en": "Dondozo",
+            "fr": "Oyacata",
+            "scoreGroup": "dondozo"
+          },
+          {
+            "id": 978,
+            "en": "Tatsugiri",
+            "fr": "Nigirigon",
+            "scoreGroup": "tatsugiri"
+          },
+          {
+            "id": 979,
+            "en": "Annihilape",
+            "fr": "Courrousinge",
+            "scoreGroup": "annihilape"
+          },
+          {
+            "id": 980,
+            "en": "Clodsire",
+            "fr": "Terraiste",
+            "scoreGroup": "clodsire"
+          },
+          {
+            "id": 981,
+            "en": "Farigiraf",
+            "fr": "Farigiraf",
+            "scoreGroup": "farigiraf"
+          },
+          {
+            "id": 982,
+            "en": "Dudunsparce",
+            "fr": "Deusolourdo",
+            "scoreGroup": "dudunsparce"
+          },
+          {
+            "id": 983,
+            "en": "Kingambit",
+            "fr": "Scalpereur",
+            "scoreGroup": "kingambit"
+          },
+          {
+            "id": 984,
+            "en": "Great Tusk",
+            "fr": "Fort-Ivoire",
+            "scoreGroup": "great-tusk"
+          },
+          {
+            "id": 985,
+            "en": "Scream Tail",
+            "fr": "Hurle-Queue",
+            "scoreGroup": "scream-tail"
+          },
+          {
+            "id": 986,
+            "en": "Brute Bonnet",
+            "fr": "Fongus-Furie",
+            "scoreGroup": "brute-bonnet"
+          },
+          {
+            "id": 987,
+            "en": "Flutter Mane",
+            "fr": "Flotte-Mèche",
+            "scoreGroup": "flutter-mane"
+          },
+          {
+            "id": 988,
+            "en": "Slither Wing",
+            "fr": "Rampe-Ailes",
+            "scoreGroup": "slither-wing"
+          },
+          {
+            "id": 989,
+            "en": "Sandy Shocks",
+            "fr": "Pelage-Sablé",
+            "scoreGroup": "sandy-shocks"
+          },
+          {
+            "id": 990,
+            "en": "Iron Treads",
+            "fr": "Roue-de-Fer",
+            "scoreGroup": "iron-treads"
+          },
+          {
+            "id": 991,
+            "en": "Iron Bundle",
+            "fr": "Hotte-de-Fer",
+            "scoreGroup": "iron-bundle"
+          },
+          {
+            "id": 992,
+            "en": "Iron Hands",
+            "fr": "Paume-de-Fer",
+            "scoreGroup": "iron-hands"
+          },
+          {
+            "id": 993,
+            "en": "Iron Jugulis",
+            "fr": "Têtes-de-Fer",
+            "scoreGroup": "iron-jugulis"
+          },
+          {
+            "id": 994,
+            "en": "Iron Moth",
+            "fr": "Mite-de-Fer",
+            "scoreGroup": "iron-moth"
+          },
+          {
+            "id": 995,
+            "en": "Iron Thorns",
+            "fr": "Épine-de-Fer",
+            "scoreGroup": "iron-thorns"
+          },
+          {
+            "id": 996,
+            "en": "Frigibax",
+            "fr": "Frigodo",
+            "scoreGroup": "frigibax"
+          },
+          {
+            "id": 997,
+            "en": "Arctibax",
+            "fr": "Cryodo",
+            "scoreGroup": "arctibax"
+          },
+          {
+            "id": 998,
+            "en": "Baxcalibur",
+            "fr": "Glaivodo",
+            "scoreGroup": "baxcalibur"
+          },
+          {
+            "id": 999,
+            "en": "Gimmighoul",
+            "fr": "Mordudor",
+            "scoreGroup": "gimmighoul"
+          },
+          {
+            "id": 1000,
+            "en": "Gholdengo",
+            "fr": "Gromago",
+            "scoreGroup": "gholdengo"
+          },
+          {
+            "id": 1001,
+            "en": "Wo-Chien",
+            "fr": "Chongjian",
+            "scoreGroup": "wo-chien"
+          },
+          {
+            "id": 1002,
+            "en": "Chien-Pao",
+            "fr": "Baojian",
+            "scoreGroup": "chien-pao"
+          },
+          {
+            "id": 1003,
+            "en": "Ting-Lu",
+            "fr": "Dinglu",
+            "scoreGroup": "ting-lu"
+          },
+          {
+            "id": 1004,
+            "en": "Chi-Yu",
+            "fr": "Yuyu",
+            "scoreGroup": "chi-yu"
+          },
+          {
+            "id": 1005,
+            "en": "Roaring Moon",
+            "fr": "Rugit-Lune",
+            "scoreGroup": "roaring-moon"
+          },
+          {
+            "id": 1006,
+            "en": "Iron Valiant",
+            "fr": "Garde-de-Fer",
+            "scoreGroup": "iron-valiant"
+          },
+          {
+            "id": 1007,
+            "en": "Koraidon",
+            "fr": "Koraidon",
+            "scoreGroup": "koraidon"
+          },
+          {
+            "id": 1008,
+            "en": "Miraidon",
+            "fr": "Miraidon",
+            "scoreGroup": "miraidon"
+          },
+          {
+            "id": 1009,
+            "en": "Walking Wake",
+            "fr": "Serpente-Eau",
+            "scoreGroup": "walking-wake"
+          },
+          {
+            "id": 1010,
+            "en": "Iron Leaves",
+            "fr": "Vert-de-Fer",
+            "scoreGroup": "iron-leaves"
+          },
+          {
+            "id": 1011,
+            "en": "Dipplin",
+            "fr": "Pomdramour",
+            "scoreGroup": "dipplin"
+          },
+          {
+            "id": 1012,
+            "en": "Poltchageist",
+            "fr": "Poltchageist",
+            "scoreGroup": "poltchageist"
+          },
+          {
+            "id": 1013,
+            "en": "Sinistcha",
+            "fr": "Théffroyable",
+            "scoreGroup": "sinistcha"
+          },
+          {
+            "id": 1014,
+            "en": "Okidogi",
+            "fr": "Félicanis",
+            "scoreGroup": "okidogi"
+          },
+          {
+            "id": 1015,
+            "en": "Munkidori",
+            "fr": "Fortusimia",
+            "scoreGroup": "munkidori"
+          },
+          {
+            "id": 1016,
+            "en": "Fezandipiti",
+            "fr": "Favianos",
+            "scoreGroup": "fezandipiti"
+          },
+          {
+            "id": 1017,
+            "en": "Ogerpon",
+            "fr": "Ogerpon",
+            "scoreGroup": "ogerpon"
+          },
+          {
+            "id": 1018,
+            "en": "Archaludon",
+            "fr": "Pondralugon",
+            "scoreGroup": "archaludon"
+          },
+          {
+            "id": 1019,
+            "en": "Hydrapple",
+            "fr": "Pomdorochi",
+            "scoreGroup": "hydrapple"
+          },
+          {
+            "id": 1020,
+            "en": "Gouging Fire",
+            "fr": "Feu-Perçant",
+            "scoreGroup": "gouging-fire"
+          },
+          {
+            "id": 1021,
+            "en": "Raging Bolt",
+            "fr": "Ire-Foudre",
+            "scoreGroup": "raging-bolt"
+          },
+          {
+            "id": 1022,
+            "en": "Iron Boulder",
+            "fr": "Roc-de-Fer",
+            "scoreGroup": "iron-boulder"
+          },
+          {
+            "id": 1023,
+            "en": "Iron Crown",
+            "fr": "Chef-de-Fer",
+            "scoreGroup": "iron-crown"
+          },
+          {
+            "id": 1024,
+            "en": "Terapagos",
+            "fr": "Terapagos",
+            "scoreGroup": "terapagos"
+          },
+          {
+            "id": 1025,
+            "en": "Pecharunt",
+            "fr": "Péchaminus",
+            "scoreGroup": "pecharunt"
+          }
+        ]
+      },
+            {
+        "key": "tandor",
+        "title": "Tandor",
+        "entries": [
+          {"id": 1026, "en": "Orchynx", "fr": "Orchynx", "scoreGroup": "orchynx"},
+          {"id": 1027, "en": "Metalynx", "fr": "Metalynx", "scoreGroup": "metalynx"},
+          {"id": 1028, "en": "Raptorch", "fr": "Raptorche", "scoreGroup": "raptorch"},
+          {"id": 1029, "en": "Archilles", "fr": "Archille", "scoreGroup": "archilles"},
+          {"id": 1030, "en": "Eletux", "fr": "Eletux", "scoreGroup": "eletux"},
+          {"id": 1031, "en": "Electruxo", "fr": "Electruxo", "scoreGroup": "electruxo"},
+          {"id": 1032, "en": "Chyinmunk", "fr": "Tamulot", "scoreGroup": "chyinmunk"},
+          {"id": 1033, "en": "Kinetmunk", "fr": "Taminétique", "scoreGroup": "kinetmunk"},
+          {"id": 1034, "en": "Birbie", "fr": "Mésignol", "scoreGroup": "birbie"},
+          {"id": 1035, "en": "Aveden", "fr": "Pinserelle", "scoreGroup": "aveden"},
+          {"id": 1036, "en": "Splendifowl", "fr": "Hironbelle", "scoreGroup": "splendifowl"},
+          {"id": 1037, "en": "Cubbug", "fr": "Chenourson", "scoreGroup": "cubbug"},
+          {"id": 1038, "en": "Cubblfly", "fr": "Gracillule", "scoreGroup": "cubblfly"},
+          {"id": 1039, "en": "Nimflora", "fr": "Nimflora", "scoreGroup": "nimflora"},
+          {"id": 1040, "en": "Barewl", "fr": "Barewl", "scoreGroup": "barewl"},
+          {"id": 1041, "en": "Dearewl", "fr": "Dearewl", "scoreGroup": "dearewl"},
+          {"id": 1042, "en": "Gararewl", "fr": "Gararewl", "scoreGroup": "gararewl"},
+          {"id": 1043, "en": "Grozard", "fr": "Grozard", "scoreGroup": "grozard"},
+          {"id": 1044, "en": "Terlard", "fr": "Terlard", "scoreGroup": "terlard"},
+          {"id": 1045, "en": "Tonemy", "fr": "Tonemy", "scoreGroup": "tonemy"},
+          {"id": 1046, "en": "Tofurang", "fr": "Tofurang", "scoreGroup": "tofurang"},
+          {"id": 1047, "en": "Dunsparce", "fr": "Dunsparce", "scoreGroup": "dunsparce"},
+          {"id": 1048, "en": "Dunseraph", "fr": "Dunseraph", "scoreGroup": "dunseraph"},
+          {"id": 1049, "en": "Fortog", "fr": "Fortog", "scoreGroup": "fortog"},
+          {"id": 1050, "en": "Folerog", "fr": "Folerog", "scoreGroup": "folerog"},
+          {"id": 1051, "en": "Blubelrog", "fr": "Blubelrog", "scoreGroup": "blubelrog"},
+          {"id": 1052, "en": "Magikarp", "fr": "Magikarp", "scoreGroup": "magikarp"},
+          {"id": 1053, "en": "Gyarados", "fr": "Gyarados", "scoreGroup": "gyarados"},
+          {"id": 1054, "en": "Feleng", "fr": "Feleng", "scoreGroup": "feleng"},
+          {"id": 1055, "en": "Felunge", "fr": "Felunge", "scoreGroup": "felunge"},
+          {"id": 1056, "en": "Feliger", "fr": "Feliger", "scoreGroup": "feliger"},
+          {"id": 1057, "en": "Mankey", "fr": "Mankey", "scoreGroup": "mankey"},
+          {"id": 1058, "en": "Primeape", "fr": "Primeape", "scoreGroup": "primeape"},
+          {"id": 1059, "en": "Empirilla", "fr": "Empirilla", "scoreGroup": "empirilla"},
+          {"id": 1060, "en": "Owten", "fr": "Owten", "scoreGroup": "owten"},
+          {"id": 1061, "en": "Eshouten", "fr": "Eshouten", "scoreGroup": "eshouten"},
+          {"id": 1062, "en": "Lotad", "fr": "Lotad", "scoreGroup": "lotad"},
+          {"id": 1063, "en": "Lombre", "fr": "Lombre", "scoreGroup": "lombre"},
+          {"id": 1064, "en": "Ludicolo", "fr": "Ludicolo", "scoreGroup": "ludicolo"},
+          {"id": 1065, "en": "Smore", "fr": "Smore", "scoreGroup": "smore"},
+          {"id": 1066, "en": "Firoke", "fr": "Firoke", "scoreGroup": "firoke"},
+          {"id": 1067, "en": "Brailip", "fr": "Brailip", "scoreGroup": "brailip"},
+          {"id": 1068, "en": "Brainoar", "fr": "Brainoar", "scoreGroup": "brainoar"},
+          {"id": 1069, "en": "Ekans", "fr": "Ekans", "scoreGroup": "ekans"},
+          {"id": 1070, "en": "Arbok", "fr": "Arbok", "scoreGroup": "arbok"},
+          {"id": 1071, "en": "Tancoon", "fr": "Tancoon", "scoreGroup": "tancoon"},
+          {"id": 1072, "en": "Tanscure", "fr": "Tanscure", "scoreGroup": "tanscure"},
+          {"id": 1073, "en": "Sponee", "fr": "Sponee", "scoreGroup": "sponee"},
+          {"id": 1074, "en": "Sponaree", "fr": "Sponaree", "scoreGroup": "sponaree"},
+          {"id": 1075, "en": "Pahar", "fr": "Pahar", "scoreGroup": "pahar"},
+          {"id": 1076, "en": "Palij", "fr": "Palij", "scoreGroup": "palij"},
+          {"id": 1077, "en": "Pajay", "fr": "Pajay", "scoreGroup": "pajay"},
+          {"id": 1078, "en": "Jerbolta", "fr": "Jerbolta", "scoreGroup": "jerbolta"},
+          {"id": 1079, "en": "Comite", "fr": "Comite", "scoreGroup": "comite"},
+          {"id": 1080, "en": "Cometeor", "fr": "Cometeor", "scoreGroup": "cometeor"},
+          {"id": 1081, "en": "Astronite", "fr": "Astronite", "scoreGroup": "astronite"},
+          {"id": 1082, "en": "Mareep", "fr": "Mareep", "scoreGroup": "mareep"},
+          {"id": 1083, "en": "Flaaffy", "fr": "Flaaffy", "scoreGroup": "flaaffy"},
+          {"id": 1084, "en": "Ampharos", "fr": "Ampharos", "scoreGroup": "ampharos"},
+          {"id": 1085, "en": "Baashaun", "fr": "Baashaun", "scoreGroup": "baashaun"},
+          {"id": 1086, "en": "Baaschaf", "fr": "Baaschaf", "scoreGroup": "baaschaf"},
+          {"id": 1087, "en": "Baariette", "fr": "Baariette", "scoreGroup": "baariette"},
+          {"id": 1088, "en": "Tricwe", "fr": "Tricwe", "scoreGroup": "tricwe"},
+          {"id": 1089, "en": "Harylect", "fr": "Harylect", "scoreGroup": "harylect"},
+          {"id": 1090, "en": "Costraw", "fr": "Costraw", "scoreGroup": "costraw"},
+          {"id": 1091, "en": "Trawpint", "fr": "Trawpint", "scoreGroup": "trawpint"},
+          {"id": 1092, "en": "Lunapup", "fr": "Lunapup", "scoreGroup": "lunapup"},
+          {"id": 1093, "en": "Herolune", "fr": "Herolune", "scoreGroup": "herolune"},
+          {"id": 1094, "en": "Minyan", "fr": "Minyan", "scoreGroup": "minyan"},
+          {"id": 1095, "en": "Vilucard", "fr": "Vilucard", "scoreGroup": "vilucard"},
+          {"id": 1096, "en": "Buizel", "fr": "Buizel", "scoreGroup": "buizel"},
+          {"id": 1097, "en": "Floatzel", "fr": "Floatzel", "scoreGroup": "floatzel"},
+          {"id": 1098, "en": "Modrille", "fr": "Modrille", "scoreGroup": "modrille"},
+          {"id": 1099, "en": "Drilgann", "fr": "Drilgann", "scoreGroup": "drilgann"},
+          {"id": 1100, "en": "Gligar", "fr": "Gligar", "scoreGroup": "gligar"},
+          {"id": 1101, "en": "Gliscor", "fr": "Gliscor", "scoreGroup": "gliscor"},
+          {"id": 1102, "en": "Sableye", "fr": "Sableye", "scoreGroup": "sableye"},
+          {"id": 1103, "en": "Cocaran", "fr": "Cocaran", "scoreGroup": "cocaran"},
+          {"id": 1104, "en": "Caracralm", "fr": "Caracralm", "scoreGroup": "caracralm"},
+          {"id": 1105, "en": "Cocancer", "fr": "Cocancer", "scoreGroup": "cocancer"},
+          {"id": 1106, "en": "Corsola", "fr": "Corsola", "scoreGroup": "corsola"},
+          {"id": 1107, "en": "Corsoreef", "fr": "Corsoreef", "scoreGroup": "corsoreef"},
+          {"id": 1108, "en": "Tubjaw", "fr": "Tubjaw", "scoreGroup": "tubjaw"},
+          {"id": 1109, "en": "Tubareel", "fr": "Tubareel", "scoreGroup": "tubareel"},
+          {"id": 1110, "en": "Cassnail", "fr": "Cassnail", "scoreGroup": "cassnail"},
+          {"id": 1111, "en": "Sableau", "fr": "Sableau", "scoreGroup": "sableau"},
+          {"id": 1112, "en": "Escartress", "fr": "Escartress", "scoreGroup": "escartress"},
+          {"id": 1113, "en": "Nupin", "fr": "Nupin", "scoreGroup": "nupin"},
+          {"id": 1114, "en": "Gellin", "fr": "Gellin", "scoreGroup": "gellin"},
+          {"id": 1115, "en": "Cottonee", "fr": "Cottonee", "scoreGroup": "cottonee"},
+          {"id": 1116, "en": "Whimsicott", "fr": "Whimsicott", "scoreGroup": "whimsicott"},
+          {"id": 1117, "en": "Misdreavus", "fr": "Misdreavus", "scoreGroup": "misdreavus"},
+          {"id": 1118, "en": "Mismagius", "fr": "Mismagius", "scoreGroup": "mismagius"},
+          {"id": 1119, "en": "Barand", "fr": "Barand", "scoreGroup": "barand"},
+          {"id": 1120, "en": "Glaslug", "fr": "Glaslug", "scoreGroup": "glaslug"},
+          {"id": 1121, "en": "Glavinug", "fr": "Glavinug", "scoreGroup": "glavinug"},
+          {"id": 1122, "en": "S51", "fr": "S51", "scoreGroup": "s51"},
+          {"id": 1123, "en": "S51-A", "fr": "S51-A", "scoreGroup": "s51-a"},
+          {"id": 1124, "en": "Paraudio", "fr": "Paraudio", "scoreGroup": "paraudio"},
+          {"id": 1125, "en": "Paraboom", "fr": "Paraboom", "scoreGroup": "paraboom"},
+          {"id": 1126, "en": "Flager", "fr": "Flager", "scoreGroup": "flager"},
+          {"id": 1127, "en": "Inflagetah", "fr": "Inflagetah", "scoreGroup": "inflagetah"},
+          {"id": 1128, "en": "Chimical", "fr": "Chimical", "scoreGroup": "chimical"},
+          {"id": 1129, "en": "Chimaconda", "fr": "Chimaconda", "scoreGroup": "chimaconda"},
+          {"id": 1130, "en": "Tikiki", "fr": "Tikiki", "scoreGroup": "tikiki"},
+          {"id": 1131, "en": "Frikitiki", "fr": "Frikitiki", "scoreGroup": "frikitiki"},
+          {"id": 1132, "en": "Unymph", "fr": "Unymph", "scoreGroup": "unymph"},
+          {"id": 1133, "en": "Harptera", "fr": "Harptera", "scoreGroup": "harptera"},
+          {"id": 1134, "en": "Chicoatl", "fr": "Chicoatl", "scoreGroup": "chicoatl"},
+          {"id": 1135, "en": "Quetzoral", "fr": "Quetzoral", "scoreGroup": "quetzoral"},
+          {"id": 1136, "en": "Coatlith", "fr": "Coatlith", "scoreGroup": "coatlith"},
+          {"id": 1137, "en": "Tracton", "fr": "Tracton", "scoreGroup": "tracton"},
+          {"id": 1138, "en": "Snopach", "fr": "Snopach", "scoreGroup": "snopach"},
+          {"id": 1139, "en": "Dermafrost", "fr": "Dermafrost", "scoreGroup": "dermafrost"},
+          {"id": 1140, "en": "Slothohm", "fr": "Slothohm", "scoreGroup": "slothohm"},
+          {"id": 1141, "en": "Theriamp", "fr": "Theriamp", "scoreGroup": "theriamp"},
+          {"id": 1142, "en": "Titanice", "fr": "Titanice", "scoreGroup": "titanice"},
+          {"id": 1143, "en": "Frynai", "fr": "Frynai", "scoreGroup": "frynai"},
+          {"id": 1144, "en": "Saidine", "fr": "Saidine", "scoreGroup": "saidine"},
+          {"id": 1145, "en": "Daikatuna", "fr": "Daikatuna", "scoreGroup": "daikatuna"},
+          {"id": 1146, "en": "Selkid", "fr": "Selkid", "scoreGroup": "selkid"},
+          {"id": 1147, "en": "Syrentide", "fr": "Syrentide", "scoreGroup": "syrentide"},
+          {"id": 1148, "en": "Spritzee", "fr": "Spritzee", "scoreGroup": "spritzee"},
+          {"id": 1149, "en": "Aromatisse", "fr": "Aromatisse", "scoreGroup": "aromatisse"},
+          {"id": 1150, "en": "Miasmedic", "fr": "Miasmedic", "scoreGroup": "miasmedic"},
+          {"id": 1151, "en": "Jackdeary", "fr": "Jackdeary", "scoreGroup": "jackdeary"},
+          {"id": 1152, "en": "Winotinger", "fr": "Winotinger", "scoreGroup": "winotinger"},
+          {"id": 1153, "en": "Duplicat", "fr": "Duplicat", "scoreGroup": "duplicat"},
+          {"id": 1154, "en": "Eevee", "fr": "Eevee", "scoreGroup": "eevee"},
+          {"id": 1155, "en": "Vaporeon", "fr": "Vaporeon", "scoreGroup": "vaporeon"},
+          {"id": 1156, "en": "Jolteon", "fr": "Jolteon", "scoreGroup": "jolteon"},
+          {"id": 1157, "en": "Flareon", "fr": "Flareon", "scoreGroup": "flareon"},
+          {"id": 1158, "en": "Espeon", "fr": "Espeon", "scoreGroup": "espeon"},
+          {"id": 1159, "en": "Umbreon", "fr": "Umbreon", "scoreGroup": "umbreon"},
+          {"id": 1160, "en": "Leafeon", "fr": "Leafeon", "scoreGroup": "leafeon"},
+          {"id": 1161, "en": "Glaceon", "fr": "Glaceon", "scoreGroup": "glaceon"},
+          {"id": 1162, "en": "Sylveon", "fr": "Sylveon", "scoreGroup": "sylveon"},
+          {"id": 1163, "en": "Nucleon", "fr": "Nucleon", "scoreGroup": "nucleon"},
+          {"id": 1164, "en": "Ratsy", "fr": "Ratsy", "scoreGroup": "ratsy"},
+          {"id": 1165, "en": "Raffiti", "fr": "Raffiti", "scoreGroup": "raffiti"},
+          {"id": 1166, "en": "Gargryph", "fr": "Gargryph", "scoreGroup": "gargryph"},
+          {"id": 1167, "en": "Masking", "fr": "Masking", "scoreGroup": "masking"},
+          {"id": 1168, "en": "Dramasama", "fr": "Dramasama", "scoreGroup": "dramasama"},
+          {"id": 1169, "en": "Antarki", "fr": "Antarki", "scoreGroup": "antarki"},
+          {"id": 1170, "en": "Chupacho", "fr": "Chupacho", "scoreGroup": "chupacho"},
+          {"id": 1171, "en": "Luchabra", "fr": "Luchabra", "scoreGroup": "luchabra"},
+          {"id": 1172, "en": "Linkite", "fr": "Linkite", "scoreGroup": "linkite"},
+          {"id": 1173, "en": "Chainite", "fr": "Chainite", "scoreGroup": "chainite"},
+          {"id": 1174, "en": "Pufluff", "fr": "Pufluff", "scoreGroup": "pufluff"},
+          {"id": 1175, "en": "Alpico", "fr": "Alpico", "scoreGroup": "alpico"},
+          {"id": 1176, "en": "Anderind", "fr": "Anderind", "scoreGroup": "anderind"},
+          {"id": 1177, "en": "Colarva", "fr": "Colarva", "scoreGroup": "colarva"},
+          {"id": 1178, "en": "Frosulo", "fr": "Frosulo", "scoreGroup": "frosulo"},
+          {"id": 1179, "en": "Frosthra", "fr": "Frosthra", "scoreGroup": "frosthra"},
+          {"id": 1180, "en": "Fafurr", "fr": "Fafurr", "scoreGroup": "fafurr"},
+          {"id": 1181, "en": "Fafninter", "fr": "Fafninter", "scoreGroup": "fafninter"},
+          {"id": 1182, "en": "Shrimputy", "fr": "Shrimputy", "scoreGroup": "shrimputy"},
+          {"id": 1183, "en": "Krilvolver", "fr": "Krilvolver", "scoreGroup": "krilvolver"},
+          {"id": 1184, "en": "Lavent", "fr": "Lavent", "scoreGroup": "lavent"},
+          {"id": 1185, "en": "Swabone", "fr": "Swabone", "scoreGroup": "swabone"},
+          {"id": 1186, "en": "Skelerogue", "fr": "Skelerogue", "scoreGroup": "skelerogue"},
+          {"id": 1187, "en": "Navighast", "fr": "Navighast", "scoreGroup": "navighast"},
+          {"id": 1188, "en": "Stenowatt", "fr": "Stenowatt", "scoreGroup": "stenowatt"},
+          {"id": 1189, "en": "Jungore", "fr": "Jungore", "scoreGroup": "jungore"},
+          {"id": 1190, "en": "Majungold", "fr": "Majungold", "scoreGroup": "majungold"},
+          {"id": 1191, "en": "Hagoop", "fr": "Hagoop", "scoreGroup": "hagoop"},
+          {"id": 1192, "en": "Haagross", "fr": "Haagross", "scoreGroup": "haagross"},
+          {"id": 1193, "en": "Xenomite", "fr": "Xenomite", "scoreGroup": "xenomite"},
+          {"id": 1194, "en": "Xenogen", "fr": "Xenogen", "scoreGroup": "xenogen"},
+          {"id": 1195, "en": "Xenoqueen", "fr": "Xenoqueen", "scoreGroup": "xenoqueen"},
+          {"id": 1196, "en": "Hazma", "fr": "Hazma", "scoreGroup": "hazma"},
+          {"id": 1197, "en": "Geigeroach", "fr": "Geigeroach", "scoreGroup": "geigeroach"},
+          {"id": 1198, "en": "Minicorn", "fr": "Minicorn", "scoreGroup": "minicorn"},
+          {"id": 1199, "en": "Kiricorn", "fr": "Kiricorn", "scoreGroup": "kiricorn"},
+          {"id": 1200, "en": "Oblivicorn", "fr": "Oblivicorn", "scoreGroup": "oblivicorn"},
+          {"id": 1201, "en": "Luxi", "fr": "Luxi", "scoreGroup": "luxi"},
+          {"id": 1202, "en": "Luxor", "fr": "Luxor", "scoreGroup": "luxor"},
+          {"id": 1203, "en": "Luxelong", "fr": "Luxelong", "scoreGroup": "luxelong"},
+          {"id": 1204, "en": "Praseopunk", "fr": "Praseopunk", "scoreGroup": "praseopunk"},
+          {"id": 1205, "en": "Neopunk", "fr": "Neopunk", "scoreGroup": "neopunk"},
+          {"id": 1206, "en": "Sheebit", "fr": "Sheebit", "scoreGroup": "sheebit"},
+          {"id": 1207, "en": "Terrabbit", "fr": "Terrabbit", "scoreGroup": "terrabbit"},
+          {"id": 1208, "en": "Laissure", "fr": "Laissure", "scoreGroup": "laissure"},
+          {"id": 1209, "en": "Volchik", "fr": "Volchik", "scoreGroup": "volchik"},
+          {"id": 1210, "en": "Voltasu", "fr": "Voltasu", "scoreGroup": "voltasu"},
+          {"id": 1211, "en": "Yatagaryu", "fr": "Yatagaryu", "scoreGroup": "yatagaryu"},
+          {"id": 1212, "en": "Devimp", "fr": "Devimp", "scoreGroup": "devimp"},
+          {"id": 1213, "en": "Fallengel", "fr": "Fallengel", "scoreGroup": "fallengel"},
+          {"id": 1214, "en": "Beliaddon", "fr": "Beliaddon", "scoreGroup": "beliaddon"},
+          {"id": 1215, "en": "Seikamater", "fr": "Seikamater", "scoreGroup": "seikamater"},
+          {"id": 1216, "en": "Garlikid", "fr": "Garlikid", "scoreGroup": "garlikid"},
+          {"id": 1217, "en": "Baitatao", "fr": "Baitatao", "scoreGroup": "baitatao"},
+          {"id": 1218, "en": "Leviathao", "fr": "Leviathao", "scoreGroup": "leviathao"},
+          {"id": 1219, "en": "Krakanao", "fr": "Krakanao", "scoreGroup": "krakanao"},
+          {"id": 1220, "en": "Lanthan", "fr": "Lanthan", "scoreGroup": "lanthan"},
+          {"id": 1221, "en": "Actan", "fr": "Actan", "scoreGroup": "actan"},
+          {"id": 1222, "en": "Urayne", "fr": "Urayne", "scoreGroup": "urayne"},
+          {"id": 1223, "en": "Aotius", "fr": "Aotius", "scoreGroup": "aotius"},
+          {"id": 1224, "en": "Mutios", "fr": "Mutios", "scoreGroup": "mutios"},
+          {"id": 1225, "en": "Zephy", "fr": "Zephy", "scoreGroup": "zephy"}
+        ]
+      }
+    ]
+  }
+}

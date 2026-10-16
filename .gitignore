@@ -1,0 +1,6 @@
+resources/
+old/
+.claude/
+*.pdf
+pokemon-species-full.json
+tandor_entries.json
