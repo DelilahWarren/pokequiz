@@ -1,10 +1,10 @@
 const STORAGE_KEY = 'pokemon-quiz-v2';
 const NATIONAL = 'national';
-const TYPES = ['normal', 'fire', 'water', 'electric', 'grass', 'ice', 'fighting', 'poison', 'ground', 'flying', 'psychic', 'bug', 'rock', 'ghost', 'dragon', 'dark', 'steel', 'fairy', 'nuclear'];
+const TYPES = ['normal', 'fire', 'water', 'electric', 'grass', 'ice', 'fighting', 'poison', 'ground', 'flying', 'psychic', 'bug', 'rock', 'ghost', 'dragon', 'dark', 'steel', 'fairy'];
 const TYPE_FR = {
   normal: 'Normal', fire: 'Feu', water: 'Eau', electric: 'Électrik', grass: 'Plante', ice: 'Glace',
   fighting: 'Combat', poison: 'Poison', ground: 'Sol', flying: 'Vol', psychic: 'Psy', bug: 'Insecte',
-  rock: 'Roche', ghost: 'Spectre', dragon: 'Dragon', dark: 'Ténèbres', steel: 'Acier', fairy: 'Fée', nuclear: 'Nucléaire',
+  rock: 'Roche', ghost: 'Spectre', dragon: 'Dragon', dark: 'Ténèbres', steel: 'Acier', fairy: 'Fée',
 };
 const TYPE_EN = Object.fromEntries(TYPES.map((t) => [t, t[0].toUpperCase() + t.slice(1)]));
 
@@ -87,10 +87,7 @@ function entriesOfPage() {
 const typesOf = (id) => window.pokemonTypes[id] || [];
 const nameOf = (e) => (state.lang === 'fr' ? e.fr : e.en);
 const typeLabel = (ty) => (state.lang === 'fr' ? TYPE_FR[ty] : TYPE_EN[ty]);
-const TANDOR_FIRST_ID = 1026;
-const spriteUrl = (id) => id >= TANDOR_FIRST_ID
-  ? `tandor-sprites/${id - TANDOR_FIRST_ID}.png`
-  : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
+const spriteUrl = (id) => `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
 
 function setMessage(text, kind = '') {
   el.msg.textContent = text;

@@ -64,7 +64,6 @@ select { background: #fff; color: #111; border: 0; border-radius: .5rem; padding
 .ty-flying { background: #818cf8; } .ty-psychic { background: #ec4899; } .ty-bug { background: #65a30d; }
 .ty-rock { background: #78716c; } .ty-ghost { background: #6d28d9; } .ty-dragon { background: #4f46e5; }
 .ty-dark { background: #44403c; } .ty-steel { background: #64748b; } .ty-fairy { background: #db2777; }
-.ty-nuclear { background: #4d7c0f; color: #d9f99d; box-shadow: 0 0 6px #84cc16; }
 
 .overlay { position: fixed; inset: 0; background: rgba(0,0,0,.7); display: grid; place-items: center; z-index: 20; }
 .overlay[hidden] { display: none; }
